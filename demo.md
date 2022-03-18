@@ -40,49 +40,49 @@ Bước này tôi sẽ hướng dẫn chi tiết tại về Markdown cơ bản t
 Với OS là Ubuntu:
 
     apt-get install git
-sử dụng 
-	`git --version`
+sử dụng lệnh `git --version` để kiểm tra phiên bản Git được cài đặt
 Nếu hiện version của Git tức là đã cài thành công
 Các thiết lập ban đầu:
 
-    Bạn cần thiết lập tên và email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.
+ - Bạn cần thiết lập tên và email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.
 
     git config --global user.name "User_name_của_bạn"
 
     git config --global user.email "email_của_bạn"
 
-    Lựa chọn trình soạn thảo mặc định, có thể là vi, vim, nano,... hoặc bất kỳ ứng dụng chỉnh sửa văn bản nào mà bạn có.
+ - Lựa chọn trình soạn thảo mặc định, có thể là vi, vim, nano,... hoặc bất kỳ ứng dụng chỉnh sửa văn bản nào mà bạn có.
 
     git config --global core.editor vi
 
-    Liệt kê các thiết lập:
+ - Liệt kê các thiết lập:
 
     git config --list
-    <img src=https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing>
+
+img src=https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing
 
 Liên kết với tài khoản github bằng SSH
 
-    ssh-keygen -t rsa
+    ```ssh-keygen -t rsa```
+ ``` Enter file in which to save the key (/root/.ssh/id_rsa): [Press enter]
+     Enter passphrase (empty for no passphrase): [Press enter]
+     Enter same passphrase again: [Press enter]
+     Your identification has been saved in /root/.ssh/id_rsa.
+     Your public key has been saved in /root/.ssh/id_rsa.pub.```
 
-Enter file in which to save the key (/root/.ssh/id_rsa): [Press enter]
-Enter passphrase (empty for no passphrase): [Press enter]
-Enter same passphrase again: [Press enter]
-Your identification has been saved in /root/.ssh/id_rsa.
-Your public key has been saved in /root/.ssh/id_rsa.pub.
-
+Nhấn Enter để máy thiết lập mặc định, không cần nhập passphrase.
 Nếu bạn nhập passphrase thì hãy nhớ pass này!
 
 Kết quả:
 
-    ls ~/.ssh/
+ ```ls ~/.ssh/```
 
 id_rsa       id_rsa.pub   known_hosts
 
-    ssh-agent -s
+ ```ssh-agent -s```
 
-    ssh-add ~/.ssh/id_rsa
+ ```ssh-add ~/.ssh/id_rsa
 
-    cat ~/.ssh/id_rsa.pub
+ ```cat ~/.ssh/id_rsa.pub
 
 copy đoạn mã này vừa hiện ra
 
