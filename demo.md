@@ -81,13 +81,16 @@ Nếu bạn nhập passphrase thì hãy nhớ pass này!
 Kết quả:
 
  ```ls ~/.ssh/	```
+
 id_rsa       id_rsa.pub   known_hosts
 
  ```ssh-agent -s	```
 
  ```ssh-add ~/.ssh/id_rsa	```
+ 
 Chạy lệnh
  ```cat ~/.ssh/id_rsa.pub	```
+ 
 copy đoạn mã vừa hiện ra
 
 Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo bạn đã đăng nhập vào github), chọn Add SSH key, đặt tên cho key này tại Title và paste nội dung vừa copy vào ô Key
