@@ -61,8 +61,8 @@ Các thiết lập ban đầu:
     ```sh
     git config --list
     ```
-
-![Screenshot from 2022-03-18 11-18-48](https://user-images.githubusercontent.com/79830542/158951145-1c97ab84-ed6c-4e67-bd15-1965f6acc5d0.png)
+<img src="https://user-images.githubusercontent.com/79830542/158951145-1c97ab84-ed6c-4e67-bd15-1965f6acc5d0.png" width="250"/>
+<![Screenshot from 2022-03-18 11-18-48](https://user-images.githubusercontent.com/79830542/158951145-1c97ab84-ed6c-4e67-bd15-1965f6acc5d0.png)>
 
 
 #### Liên kết với tài khoản github bằng SSH
