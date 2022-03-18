@@ -1,12 +1,8 @@
 # Kiến thức cơ bản 
 [MỤC LỤC]
-
 [I.Cài công cụ của Git trên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#i-c%C3%A0i-c%C3%B4ng-c%E1%BB%A5-c%E1%BB%A7a-git-tr%C3%AAn-ubuntu)
-
 	[1.Git là gì?](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#1-git-l%C3%A0-g%C3%AC)
-
 	[2.Cài Git lên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#2-c%C3%A0i-git-tr%C3%AAn-ubuntu)
-
 		[Liên kết tới tài khoản Github bằng SSH](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#li%C3%AAn-k%E1%BA%BFt-v%E1%BB%9Bi-t%C3%A0i-kho%E1%BA%A3n-github-b%E1%BA%B1ng-ssh)
 ## I. Cài công cụ của Git trên Ubuntu 
 ### 1. Git là gì?
@@ -121,5 +117,6 @@ Lúc này bạn đã có thể commit lên github tại máy local mà không c�
 Sử dụng lệnh:
  ```sh 
 	git clone 
+ ```
 # Để học về MarkDown bạn có thể xem thêm tại [đây](https://daringfireball.net/projects/markdown/syntax)
 
