@@ -59,7 +59,7 @@ Các thiết lập ban đầu:
  - Liệt kê các thiết lập:
 
     ```sh
-    	git config --list
+    git config --list
     ```
 
 <img src="https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing">
@@ -68,7 +68,8 @@ Các thiết lập ban đầu:
 
  Tạo 1 SSH key trên máy của bạn
  
- ``` ssh-keygen -t rsa ```
+ ```sh
+     ssh-keygen -t rsa ```
  
  Máy sẽ hiện thông tin như sau
  
@@ -84,16 +85,19 @@ Nếu bạn nhập passphrase thì hãy nhớ pass này!
 
 Kết quả:
 
- ```	ls ~/.ssh/	```
+ ```sh
+    ls ~/.ssh/	```
 
 id_rsa       id_rsa.pub   known_hosts
 
- ```	ssh-agent -s	```
+ ```sh
+ 	ssh-agent -s	```
 
  ```	ssh-add ~/.ssh/id_rsa	```
  
 Chạy lệnh
- ```	cat ~/.ssh/id_rsa.pub	```
+ ```sh
+ 	cat ~/.ssh/id_rsa.pub	```
  
 copy đoạn mã vừa hiện ra
 
