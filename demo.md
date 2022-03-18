@@ -69,7 +69,8 @@ Các thiết lập ban đầu:
  Tạo 1 SSH key trên máy của bạn
  
  ```sh
-     ssh-keygen -t rsa ```
+     ssh-keygen -t rsa 
+     ```
  
  Máy sẽ hiện thông tin như sau
  
@@ -91,13 +92,16 @@ Kết quả:
 id_rsa       id_rsa.pub   known_hosts
 
  ```sh
- 	ssh-agent -s	```
+ 	ssh-agent -s	
+ 	```
 
- ```	ssh-add ~/.ssh/id_rsa	```
+ ```	ssh-add ~/.ssh/id_rsa	
+ ```
  
 Chạy lệnh
  ```sh
- 	cat ~/.ssh/id_rsa.pub	```
+ 	cat ~/.ssh/id_rsa.pub	
+ 	```
  
 copy đoạn mã vừa hiện ra
 
