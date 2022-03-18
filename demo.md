@@ -62,7 +62,8 @@ Các thiết lập ban đầu:
     git config --list
     ```
 
-<img src="https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing">
+![Screenshot from 2022-03-18 11-18-48](https://user-images.githubusercontent.com/79830542/158951145-1c97ab84-ed6c-4e67-bd15-1965f6acc5d0.png)
+
 
 #### Liên kết với tài khoản github bằng SSH
 
@@ -70,11 +71,12 @@ Các thiết lập ban đầu:
  
  ```sh
      ssh-keygen -t rsa 
-     ```
+ ```
  
  Máy sẽ hiện thông tin như sau
  
- ``` Enter file in which to save the key (/root/.ssh/id_rsa): [Press enter]
+ ```sh
+     Enter file in which to save the key (/root/.ssh/id_rsa): [Press enter]
      Enter passphrase (empty for no passphrase): [Press enter]
      Enter same passphrase again: [Press enter]
      Your identification has been saved in /root/.ssh/id_rsa.
@@ -87,21 +89,23 @@ Nếu bạn nhập passphrase thì hãy nhớ pass này!
 Kết quả:
 
  ```sh
-    ls ~/.ssh/	```
+    ls ~/.ssh/	
+ ```
 
 id_rsa       id_rsa.pub   known_hosts
 
  ```sh
  	ssh-agent -s	
- 	```
+ ```
 
- ```	ssh-add ~/.ssh/id_rsa	
+ ```sh
+ 	ssh-add ~/.ssh/id_rsa	
  ```
  
 Chạy lệnh
  ```sh
  	cat ~/.ssh/id_rsa.pub	
- 	```
+ ```
  
 copy đoạn mã vừa hiện ra
 
