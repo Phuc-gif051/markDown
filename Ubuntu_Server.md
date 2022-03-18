@@ -12,13 +12,13 @@
 
 ## II. Điểm tương đồng của Ubunt Desktop và Ubuntu Server 
 
-** Nhân **
+ **Nhân(Kernel)**
 
 Sau Ubuntu 12.04, cả hai phiên bản Server và Desktop đều sử dụng cùng một nhân Kernel. Trước đây, Desktop và Server đã sử dụng các kernel khác nhau. Vì hiện tại, cả Ubuntu Desktop và Ubuntu Server đều sử dụng cùng một kernel, nên bạn có thể thêm bất kỳ gói nào vào một trong hai phiên bản. Điều này có nghĩa là cho dù cài đặt mặc định có khác nhau, thì bạn vẫn có thể tùy chỉnh phiên bản Ubuntu của mình sao cho phù hợp.
 
 Bạn có thể bắt đầu với Ubuntu Server và cài đặt môi trường desktop, nếu thấy mình không thể chạy nó mà không có giao diện đồ họa. Ngoài ra, bạn có thể bắt đầu với Ubuntu Desktop và thêm các gói cần thiết để tạo máy chủ. Do Ubuntu Server và Desktop chia sẻ cùng một Ubuntu kernel lõi (core), nên sự khác biệt trong cài đặt mặc định không thể ngăn chặn việc cài đặt gói phần mềm trong tương lai.
 
-** Hỗ trợ **
+ **Hỗ trợ**
 
 Việc hỗ trợ cũng thay đổi kể từ khi bản phát hành 12.04 ra mắt. Trước Ubuntu 12.04 LTS, các phiên bản dành Desktop có chu kỳ hỗ trợ 3 năm. Phiên bản Server có chu kỳ hỗ trợ lên đến 5 năm. Nhưng với sự ra mắt của 12.04 LTS, cả hai phiên bản đều chuyển sang chu kỳ hỗ trợ 5 năm.
 
