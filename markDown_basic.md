@@ -1,6 +1,6 @@
 # Kiến thức cơ bản 
 [MỤC LỤC]
-
+đang tiến hành chỉnh sửa
 [I.Cài công cụ của Git trên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#i-c%C3%A0i-c%C3%B4ng-c%E1%BB%A5-c%E1%BB%A7a-git-tr%C3%AAn-ubuntu)
 
    [1.Git là gì?](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#1-git-l%C3%A0-g%C3%AC)
