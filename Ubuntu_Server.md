@@ -40,4 +40,18 @@ Trong khi các ứng dụng Ubuntu Desktop tập trung vào việc sử dụng t
 
 ## IV. Cài đặt Ubuntu Server
 
+### 1. Chuẩn bị
 
+Trước tiên các bạn cần truy cập vào trang chủ Ubuntu để tải về file ISO cài đặt phù hợp với hệ thống của mình. Các bạn có thể bấm trực tiếp vào link sau:
+
+[Download Ubuntu Server 20.04 LTS](https://releases.ubuntu.com/20.04/)
+
+Tiếp đến các bạn ghi file ISO ra USB hoặc đĩa DVD. Nếu các bạn sử dụng trên môi trường ảo hóa thì chỉ việc thêm file ISO này vào mục “Add CD/DVD” là xong.
+
+### 2. Cài đặt
+
+Khởi động máy và chọn boot từ CD/DVD/USB tùy vào bước chuẩn bị của các bạn. Giao diện cài đặt cơ bản sẽ xuất hiện:
+
+Bạn chọn **Install Ubuntu Server**
+
+<img src="(https://user-images.githubusercontent.com/79830542/158987409-e67faca9-9cc3-4339-a60e-b918ab2f94a2.png)" width="850" />
