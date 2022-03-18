@@ -52,39 +52,49 @@ Các thiết lập ban đầu:
 
  - Lựa chọn trình soạn thảo mặc định, có thể là vi, vim, nano,... hoặc bất kỳ ứng dụng chỉnh sửa văn bản nào mà bạn có.
 
-    git config --global core.editor vi
+    ```git config --global core.editor vi
+    ```
 
  - Liệt kê các thiết lập:
 
-    git config --list
+    ```git config --list
+    ```
 
 img src=https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing
 
-Liên kết với tài khoản github bằng SSH
-
-    ```ssh-keygen -t rsa```
+####Liên kết với tài khoản github bằng SSH
+ Tạo 1 SSH key trên máy của bạn
+ 
+ ```ssh-keygen -t rsa
+ ```
+ 
+ Máy sẽ hiện thông tin như sau
+ 
  ``` Enter file in which to save the key (/root/.ssh/id_rsa): [Press enter]
      Enter passphrase (empty for no passphrase): [Press enter]
      Enter same passphrase again: [Press enter]
      Your identification has been saved in /root/.ssh/id_rsa.
-     Your public key has been saved in /root/.ssh/id_rsa.pub.```
+     Your public key has been saved in /root/.ssh/id_rsa.pub.
+ ```
 
 Nhấn Enter để máy thiết lập mặc định, không cần nhập passphrase.
 Nếu bạn nhập passphrase thì hãy nhớ pass này!
 
 Kết quả:
 
- ```ls ~/.ssh/```
-
+ ```ls ~/.ssh/
+ ```
 id_rsa       id_rsa.pub   known_hosts
 
- ```ssh-agent -s```
+ ```ssh-agent -s
+ ```
 
  ```ssh-add ~/.ssh/id_rsa
-
+ ```
+Chạy lệnh
  ```cat ~/.ssh/id_rsa.pub
-
-copy đoạn mã này vừa hiện ra
+ ```
+copy đoạn mã vừa hiện ra
 
 Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo bạn đã đăng nhập vào github), chọn Add SSH key, đặt tên cho key này tại Title và paste nội dung vừa copy vào ô Key
 
