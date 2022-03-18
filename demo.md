@@ -60,13 +60,13 @@ Các thiết lập ban đầu:
     ```git config --list
     ```
 
-img src=https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing
+<img src=https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing>
 
 ####Liên kết với tài khoản github bằng SSH
+
  Tạo 1 SSH key trên máy của bạn
  
- ```ssh-keygen -t rsa
- ```
+ ```ssh-keygen -t rsa```
  
  Máy sẽ hiện thông tin như sau
  
