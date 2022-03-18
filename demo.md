@@ -1,5 +1,5 @@
 # Sử dụng MarkDown lần 1
-[Giới thiệu](https:\\google.com)
+[Giới thiệu](https://github.com/Phuc-gif051/markDown/blob/main/demo.md#%C4%91%E1%BB%83-h%E1%BB%8Dc-v%E1%BB%81-markdown-b%E1%BA%A1n-c%C3%B3-th%E1%BB%83-xem-th%C3%AAm-t%E1%BA%A1i-%C4%91%C3%A2y)
 ## I. Giới thiệu về MarkDown 
 Git là một phần mềm dùng để quản lý phiên bản của mã nguồn tương tự như SVN nhưng có nhiều ưu điểm hơn, Git đang được sủ dụng rộng rãi hiện nay. Tuy nhiên trong bài viết này, tôi sẽ nói về git một cách "cá nhân" hơn, mang tính chia sẻ những cái tôi hay làm và hướng tới những người là sysadmin. Mong nhận được ý kiến đóng góp của các bạn.
 Một số khái niệm cần làm rõ
