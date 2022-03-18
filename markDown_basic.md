@@ -1,5 +1,5 @@
 # Kiến thức cơ bản 
-[MỤC LỤC]
+## MỤC LỤC
 đang tiến hành chỉnh sửa
 
  - [I.Cài công cụ của Git trên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#i-c%C3%A0i-c%C3%B4ng-c%E1%BB%A5-c%E1%BB%A7a-git-tr%C3%AAn-ubuntu)
