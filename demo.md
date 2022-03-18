@@ -60,7 +60,7 @@ Các thiết lập ban đầu:
 
 <img src="https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing">
 
-####Liên kết với tài khoản github bằng SSH
+#### Liên kết với tài khoản github bằng SSH
 
  Tạo 1 SSH key trên máy của bạn
  
@@ -80,16 +80,16 @@ Nếu bạn nhập passphrase thì hãy nhớ pass này!
 
 Kết quả:
 
- ```ls ~/.ssh/	```
+ ```	ls ~/.ssh/	```
 
 id_rsa       id_rsa.pub   known_hosts
 
- ```ssh-agent -s	```
+ ```	ssh-agent -s	```
 
- ```ssh-add ~/.ssh/id_rsa	```
+ ```	ssh-add ~/.ssh/id_rsa	```
  
 Chạy lệnh
- ```cat ~/.ssh/id_rsa.pub	```
+ ```	cat ~/.ssh/id_rsa.pub	```
  
 copy đoạn mã vừa hiện ra
 
