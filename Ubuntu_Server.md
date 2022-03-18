@@ -1,11 +1,11 @@
 # Tìm hiều và cài đặt Ubuntu server 20.04 LTS
 ## Menu 
- - [I. Ubuntu server là gì?]()
- - [II. Điểm tương đồng của Ubunt Desktop và Ubuntu Server]()
- - [III. Sự khác biệt giữa Ubuntu Desktop và Ubuntu Server]()
- 	- [1. Giao diện đồ họa người dùng]()
-	- [2. Các ứng dụng cơ bản]()
- - [IV. Cài đặt Ubuntu Server]()
+ - [I. Ubuntu server là gì?](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#i-ubuntu-server-l%C3%A0-g%C3%AC)
+ - [II. Điểm tương đồng của Ubunt Desktop và Ubuntu Server](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#ii-%C4%91i%E1%BB%83m-t%C6%B0%C6%A1ng-%C4%91%E1%BB%93ng-c%E1%BB%A7a-ubunt-desktop-v%C3%A0-ubuntu-server)
+ - [III. Sự khác biệt giữa Ubuntu Desktop và Ubuntu Server](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#iii-s%E1%BB%B1-kh%C3%A1c-bi%E1%BB%87t-gi%E1%BB%AFa-ubuntu-desktop-v%C3%A0-ubuntu-server)
+ 	- [1. Giao diện đồ họa người dùng](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#1-giao-di%E1%BB%87n-%C4%91%E1%BB%93-h%E1%BB%8Da-ng%C6%B0%E1%BB%9Di-d%C3%B9ng)
+	- [2. Các ứng dụng cơ bản](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#2-c%C3%A1c-%E1%BB%A9ng-d%E1%BB%A5ng-c%C6%A1-b%E1%BA%A3n)
+ - [IV. Cài đặt Ubuntu Server](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#iv-c%C3%A0i-%C4%91%E1%BA%B7t-ubuntu-server)
 ## I. Ubuntu server là gì?
 
 Đây được xem là một phiên bản hệ điều hành khác hẳn so với các phiên bản Ubuntu tiêu chuẩn bạn từng biết, được tạo ra nhằm hỗ trợ cho việc hoạt động của mạng lưới (network) và dịch vụ (service). Hệ điều hành được sử dụng để chạy trên các file server đơn giản vì nó đang hoạt động trong 5000 node cloud. Khác với phiên bản Desktop, phiên bản Ubun Server không bao gồm việc giao diện đồ họa đối với người dùng (Graphical User Interface). Các thao tác với hệ thống người dùng sẽ dùng trình điều khiển và câu lệnh thay vì dùng chuột và giao tiếp với đồ hoạ trực quan của hệ thống.
