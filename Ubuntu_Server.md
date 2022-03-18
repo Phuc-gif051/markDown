@@ -54,4 +54,4 @@ Khởi động máy và chọn boot từ CD/DVD/USB tùy vào bước chuẩn b�
 
 Bạn chọn **Install Ubuntu Server**
 
-<img src="(https://user-images.githubusercontent.com/79830542/158987931-03a034c5-e06a-4ad6-b6c1-231cf8adb688.jpg)" width="850"/>
+<img src="https://user-images.githubusercontent.com/79830542/158987931-03a034c5-e06a-4ad6-b6c1-231cf8adb688.jpg" width="850"/>
