@@ -35,6 +35,5 @@ Bạn chỉ cần bỏ ra khoảng 2h là đã có thể sử dụng ngôn ngữ
 Sau đó tạo các repo tùy mục đích, clone nó về client và code.
 
 Bước này tôi sẽ hướng dẫn chi tiết hơn ở phần sau.
-
-#Để học về MarkDown bạn có thể xem thêm tại [đây](https://daringfireball.net/projects/markdown/syntax)
+# Để học về MarkDown bạn có thể xem thêm tại [đây](https://daringfireball.net/projects/markdown/syntax)
 
