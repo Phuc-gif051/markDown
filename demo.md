@@ -41,9 +41,10 @@ Với OS là Ubuntu:
 
     apt-get install git
     
-sử dụng lệnh `git --version` để kiểm tra phiên bản Git được cài đặt
-Nếu hiện version của Git tức là đã cài thành công
-Các thiết lập ban đầu:
+sử dụng lệnh `git --version` để kiểm tra phiên bản Git được cài đặt.
+Nếu hiện phiên bản của Git tức là đã cài đặt thành công.
+<img src="https://user-images.githubusercontent.com/79830542/158952744-3f7bf5c1-2a37-483d-b244-ea8a9636c0cf.png" width="800"/>
+Các thiết lập cơ bản:
 
  - Bạn cần thiết lập tên và email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.
 
