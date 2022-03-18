@@ -1,12 +1,12 @@
 # Kiến thức cơ bản 
 [MỤC LỤC]
 đang tiến hành chỉnh sửa
-[I.Cài công cụ của Git trên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#i-c%C3%A0i-c%C3%B4ng-c%E1%BB%A5-c%E1%BB%A7a-git-tr%C3%AAn-ubuntu)
+[- I.Cài công cụ của Git trên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#i-c%C3%A0i-c%C3%B4ng-c%E1%BB%A5-c%E1%BB%A7a-git-tr%C3%AAn-ubuntu)
 
-   [1.Git là gì?](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#1-git-l%C3%A0-g%C3%AC)
+   [- 1.Git là gì?](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#1-git-l%C3%A0-g%C3%AC)
    
-   [2.Cài Git lên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#2-c%C3%A0i-git-tr%C3%AAn-ubuntu)
-   	[Liên kết tới tài khoản Github bằng SSH](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#li%C3%AAn-k%E1%BA%BFt-v%E1%BB%9Bi-t%C3%A0i-kho%E1%BA%A3n-github-b%E1%BA%B1ng-ssh)
+   [- 2.Cài Git lên Ubuntu](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#2-c%C3%A0i-git-tr%C3%AAn-ubuntu)
+   	[- Liên kết tới tài khoản Github bằng SSH](https://github.com/Phuc-gif051/markDown/blob/main/markDown_basic.md#li%C3%AAn-k%E1%BA%BFt-v%E1%BB%9Bi-t%C3%A0i-kho%E1%BA%A3n-github-b%E1%BA%B1ng-ssh)
 ## I. Cài công cụ của Git trên Ubuntu 
 ### 1. Git là gì?
 Git là một phần mềm dùng để quản lý phiên bản của mã nguồn tương tự như SVN nhưng có nhiều ưu điểm hơn, Git đang được sủ dụng rộng rãi hiện nay. Tuy nhiên trong bài viết này, tôi sẽ nói về git một cách "cá nhân" hơn, mang tính chia sẻ những cái tôi hay làm và hướng tới những người là sysadmin. Mong nhận được ý kiến đóng góp của các bạn.
