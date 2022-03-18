@@ -52,11 +52,15 @@ Các thiết lập ban đầu:
 
  - Lựa chọn trình soạn thảo mặc định, có thể là vi, vim, nano,... hoặc bất kỳ ứng dụng chỉnh sửa văn bản nào mà bạn có.
 
-    ```git config --global core.editor vi	```
+    ```sh
+    git config --global core.editor vi
+    ```
 
  - Liệt kê các thiết lập:
 
-    ```git config --list	```
+    ```sh
+    	git config --list
+    ```
 
 <img src="https://drive.google.com/file/d/16-5mW5Nslkw04r6sj-iisUzvjGXa3MNN/view?usp=sharing">
 
