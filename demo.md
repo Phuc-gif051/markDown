@@ -41,9 +41,10 @@ Với OS là Ubuntu:
 
     apt-get install git
     
-sử dụng lệnh `git --version` để kiểm tra phiên bản Git được cài đặt.
+Sử dụng lệnh `git --version` để kiểm tra phiên bản Git được cài đặt.
 Nếu hiện phiên bản của Git tức là đã cài đặt thành công.
 <img src="https://user-images.githubusercontent.com/79830542/158952744-3f7bf5c1-2a37-483d-b244-ea8a9636c0cf.png" width="800"/>
+
 Các thiết lập cơ bản:
 
  - Bạn cần thiết lập tên và email của mình để mỗi khi commit lên server sẽ nhận biết được ai commit lên vì một repo có thể có nhiều người tham gia.
@@ -106,5 +107,11 @@ copy đoạn mã vừa hiện ra
 Truy cập đường dẫn sau https://github.com/settings/ssh (đảm bảo bạn đã đăng nhập vào github), chọn Add SSH key, đặt tên cho key này tại Title và paste nội dung vừa copy vào ô Key
 
 Lúc này bạn đã có thể commit lên github tại máy local mà không cần nhập username và password.
+### 3. Các thao tác cơ bản với Git 
+**Sau khi tạo được SHH key trên máy và thêm SSH key đó vào tài khoản Github, ta đã có thể tiến hành thao tác với Git trên máy thông qua các lệnh trên Comman line**
+#### 3.1. Clone một reponsitories 
+Sử dụng lệnh:
+ ```sh 
+	git clone 
 # Để học về MarkDown bạn có thể xem thêm tại [đây](https://daringfireball.net/projects/markdown/syntax)
 
