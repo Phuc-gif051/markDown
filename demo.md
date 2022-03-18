@@ -35,11 +35,12 @@ Bạn chỉ cần bỏ ra khoảng 2h là đã có thể sử dụng ngôn ngữ
 
 Sau đó tạo các repo tùy mục đích, clone nó về client và code.
 
-Bước này tôi sẽ hướng dẫn chi tiết tại về Markdown cơ bản tại [đây](https://github.com/hocchudong/git-github-for-sysadmin#ii-ng%C3%B4n-ng%E1%BB%AF-markdown).
+Đây là bài hướng dẫn chi tiết về Markdown cơ bản tại [đây](https://github.com/hocchudong/git-github-for-sysadmin#ii-ng%C3%B4n-ng%E1%BB%AF-markdown).
 ### 2. Cài Git trên Ubuntu
 Với OS là Ubuntu:
 
     apt-get install git
+    
 sử dụng lệnh `git --version` để kiểm tra phiên bản Git được cài đặt
 Nếu hiện version của Git tức là đã cài thành công
 Các thiết lập ban đầu:
@@ -86,22 +87,14 @@ Các thiết lập ban đầu:
 Nhấn Enter để máy thiết lập mặc định, không cần nhập passphrase.
 Nếu bạn nhập passphrase thì hãy nhớ pass này!
 
-Kết quả:
+Kiểm tra xem đã tạo được key SSH hay chưa:
 
  ```sh
     ls ~/.ssh/	
  ```
-
+Kết quả:
 id_rsa       id_rsa.pub   known_hosts
 
- ```sh
- 	ssh-agent -s	
- ```
-
- ```sh
- 	ssh-add ~/.ssh/id_rsa	
- ```
- 
 Chạy lệnh
  ```sh
  	cat ~/.ssh/id_rsa.pub	
