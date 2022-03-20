@@ -42,7 +42,7 @@ Trong khi các ứng dụng Ubuntu Desktop tập trung vào việc sử dụng t
 
 ## IV. Cài đặt Ubuntu Server
 
-`Ta sẽ cài đặt phiên bản live server`
+`Ta sẽ cài đặt phiên bản live server  trên VMware Workstation 16`
 
 ### 1. Chuẩn bị
 
@@ -53,7 +53,7 @@ Trước tiên các bạn cần truy cập vào trang chủ Ubuntu để tải v
 Tiếp đến các bạn ghi file ISO ra USB hoặc đĩa DVD. Nếu các bạn sử dụng trên môi trường ảo hóa thì chỉ việc thêm file ISO này vào mục “Add CD/DVD” là xong.
 
 ### 2. Cài đặt
-Cài đặt trên VMware Workstation 16.
+
 Chọn `File` -> `New Virtual Machine` hoặc `Ctrl+N` để tạo 1 máy ảo mới, Chọn `Next`.
 
 Chọn `Installer disc image file (iso)` rồi tìm đến file Ubuntu Server bạn tải ở bước 1. Chọn `Next`
