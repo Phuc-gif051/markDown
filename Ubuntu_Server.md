@@ -40,6 +40,8 @@ Trong khi các ứng dụng Ubuntu Desktop tập trung vào việc sử dụng t
 
 ## IV. Cài đặt Ubuntu Server
 
+`Ta sẽ cài đặt phiên bản live server`
+
 ### 1. Chuẩn bị
 
 Trước tiên các bạn cần truy cập vào trang chủ Ubuntu để tải về file ISO cài đặt phù hợp với hệ thống của mình. Các bạn có thể bấm trực tiếp vào link sau:
@@ -49,9 +51,73 @@ Trước tiên các bạn cần truy cập vào trang chủ Ubuntu để tải v
 Tiếp đến các bạn ghi file ISO ra USB hoặc đĩa DVD. Nếu các bạn sử dụng trên môi trường ảo hóa thì chỉ việc thêm file ISO này vào mục “Add CD/DVD” là xong.
 
 ### 2. Cài đặt
+Cài đặt trên VMware Workstation 16.
+Chọn `File` -> `New Virtual Machine` hoặc `Ctrl+N` để tạo 1 máy ảo mới, Chọn `Next`.
 
-Khởi động máy và chọn boot từ CD/DVD/USB tùy vào bước chuẩn bị của các bạn. Giao diện cài đặt cơ bản sẽ xuất hiện:
+Chọn `Installer disc image file (iso)` rồi tìm đến file Ubuntu Server bạn tải ở bước 1. Chọn `Next`
 
-Bạn chọn **Install Ubuntu Server**
+<img src="https://user-images.githubusercontent.com/79830542/159161747-315e270e-adb0-43e9-91d7-6ad246fc2826.png" width="850" />
 
-<img src="https://user-images.githubusercontent.com/79830542/158987931-03a034c5-e06a-4ad6-b6c1-231cf8adb688.jpg" width="850"/>
+Nhập 1 số thông tin cơ bản về người dùng rồi `Next`
+<img src="https://user-images.githubusercontent.com/79830542/159161966-ba5caead-65eb-44cb-8d24-fb7bc764c000.png" width="850" />
+
+Đặt tên cho Server và nơi cài đặt, rồi chọn `Next`
+<img src="https://user-images.githubusercontent.com/79830542/159162147-74fd3951-8574-4551-a549-1cd45f98396e.png" width="850" />
+
+Lựa chọn phân vùng bộ nhớ cho máy ảo, mặc định là 20GB. 
+<img src="https://user-images.githubusercontent.com/79830542/159162219-525e35a9-68da-4678-b3fc-0f4950d4b03c.png" width="850" />
+
+Cài đặt RAM, CPU... cho Server. Nếu bạn không muốn thay đổi gì chọn `Finish`. Nếu muốn thay đồi chọn `Customize Harware...`
+<img src="https://user-images.githubusercontent.com/79830542/159162341-9673f43a-1781-415b-b5cc-70892ebafe44.png" width="850" />
+
+Chờ máy tự hoàn tất quá trình đọc file IOS của Ubuntu Server. sau khi hoàn tất sẽ hiện lên giao diện cài đặt. Đầu tiên là lựa chọn ngôn ngữ. Dùng phím `Enter` để chọn, các phím `Mũi teen` trên bàn phím để thay đổi lựa chọn.
+<img src="https://user-images.githubusercontent.com/79830542/159162491-57feca28-909a-4f10-920c-8c2bc23bbd41.png" width="850" /> 
+
+Chọn các cài đặt về bàn phím, mình để mặc định là tiếng Anh. Chọn `Done`
+<img src="https://user-images.githubusercontent.com/79830542/159162616-9b51b44d-e349-46ca-9978-be30bf1e96c7.PNG" width="850" /> 
+
+Cấu hình mạng cho Server. Nên để mặc định nếu mới bất đầu tìm hiểu về Ubuntu Server. Ở đây để mặc định, chọn `Done`
+<img src="https://user-images.githubusercontent.com/79830542/159162716-b5eb306e-526c-497e-9a29-4c156e8db16b.PNG" width="850" />
+
+Nếu bạn có 1 mạng cục bộ và muốn Server kết nối tới mạng đó thì hãy nhập `Proxy address` nếu không có hãy để trống, chọn `Done`
+<img src="https://user-images.githubusercontent.com/79830542/159162872-562d61b2-794d-4253-8b3a-82dbe85d553e.PNG" width="850" />
+
+Sau khi cài thành công mạng, hệ thống sẽ tự chọn đến 1 địa chỉ máy chủ gần nhất để tải các gói cần thiết và cập nhật sau này.
+<img src="https://user-images.githubusercontent.com/79830542/159163070-979aa680-b2e6-4442-9944-8f1e37811651.PNG" width="850" /> 
+
+Bước tiếp theo là chọn phân vùng ổ cứng để cài đặt. VMware đã tự chọn 1 phân dùng duy nhất có 20GB, chọn `Done` để chuyển sang bước sau.
+<img src="https://user-images.githubusercontent.com/79830542/159163138-4e8a4fb9-f3bc-404f-ad2a-cee7dd89b2c4.PNG" width="850" /> 
+
+Cài đặt cho phân vùng ổ cứng gồm các cài đặt cơ bản như: Nơi để cài BIOS, nơi để cài Server. Hệ thống sẽ tự phân vùng, nên để mặc định. Chọn `Done`
+
+<img src="https://user-images.githubusercontent.com/79830542/159163405-90d53591-2244-4392-a28c-6ea27d8e2813.PNG" width="850" />
+
+Tất cả dữ liệu hiện tại trên disk đã chọn sẽ bị xóa. Chọn `Continue`.
+<img src="https://user-images.githubusercontent.com/79830542/159163442-28fdd3f2-6c03-492c-b31d-98a9ae2f1044.PNG" width="850" />
+
+Đặt tên người dùng, tên máy chủ của hệ thống và mật khẩu
+<img src="https://user-images.githubusercontent.com/79830542/159163503-ab632b70-4173-42fa-ab4b-afcf79ea35b1.PNG" width="850" />
+
+Tùy chọn cho phép cài OpenSSH tới server. Ở đây chọn kết nối tới Github, sau này có thể dùng SSH để điều khiến Server của bạn từ xa thông qua Github
+
+<img src="https://user-images.githubusercontent.com/79830542/159163602-e4d36d47-b4d5-464f-8519-ab287c6dce1e.PNG" width="850" />
+
+Chọn `Yes` để xác nhận cài SSH trên server của bạn 
+<img src="https://user-images.githubusercontent.com/79830542/159163732-a04927d7-3a0a-4449-8ebd-edbc1218f01e.PNG" width="850" />
+
+Bỏ trống ở bước này, chọn `Done`
+<img src="https://user-images.githubusercontent.com/79830542/159163846-31b39fa6-8292-4312-b91a-1f6eb626982a.PNG" width="850" />
+
+Chọn các phần thêm cho server.
+Khuyến nghị không chọn thêm bất kì dịch vụ nào và tiến hành cài đặt Ubuntu 20.04 server để quá trình cài đặt được nhanh nhất.
+Rồi chọn `Done`.
+<img src="https://user-images.githubusercontent.com/79830542/159163891-b1f388c9-1c5a-419f-bc08-a82b5e85f123.PNG" width="850" />
+
+Chờ cho quá trình cài đặt hoàn tất, chon `Reboot` 
+<img src="https://user-images.githubusercontent.com/79830542/159163924-db0ec88a-7901-4ad5-b53e-d9d8c50c0535.PNG" width="850" />
+
+VMware sẽ tự reboot lại Ubuntu Server. Khởi động lại hoàn tất, tiến hành đăng nhập vào server với Username và password đã thiết lập ở trên.
+<img src="https://user-images.githubusercontent.com/79830542/159164149-499e919d-ff86-4108-819e-f9f3ae593509.png" width="850" />
+
+Màn hình đăng nhập thành công
+<img src="https://user-images.githubusercontent.com/79830542/159164799-f549483c-3f83-4503-a0d3-7ea5e67dcf3b.png" width="850" />
