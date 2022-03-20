@@ -7,7 +7,7 @@
 	- [2. Các ứng dụng cơ bản](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#2-c%C3%A1c-%E1%BB%A9ng-d%E1%BB%A5ng-c%C6%A1-b%E1%BA%A3n)
  - [IV. Cài đặt Ubuntu Server](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#iv-c%C3%A0i-%C4%91%E1%BA%B7t-ubuntu-server)
  	- [1. Chuẩn bị](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#1-chu%E1%BA%A9n-b%E1%BB%8B)
- 	- [2. Cài đặt]()
+ 	- [2. Cài đặt](https://github.com/Phuc-gif051/markDown/blob/main/Ubuntu_Server.md#2-c%C3%A0i-%C4%91%E1%BA%B7t)
 ## I. Ubuntu server là gì?
 
 Đây được xem là một phiên bản hệ điều hành khác hẳn so với các phiên bản Ubuntu tiêu chuẩn bạn từng biết, được tạo ra nhằm hỗ trợ cho việc hoạt động của mạng lưới (network) và dịch vụ (service). Hệ điều hành được sử dụng để chạy trên các file server đơn giản vì nó đang hoạt động trong 5000 node cloud. Khác với phiên bản Desktop, phiên bản Ubun Server không bao gồm việc giao diện đồ họa đối với người dùng (Graphical User Interface). Các thao tác với hệ thống người dùng sẽ dùng trình điều khiển và câu lệnh thay vì dùng chuột và giao tiếp với đồ hoạ trực quan của hệ thống.
