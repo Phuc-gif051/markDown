@@ -72,19 +72,24 @@ Lựa chọn phân vùng bộ nhớ cho máy ảo, mặc định là 20GB.
 Cài đặt RAM, CPU... cho Server. Nếu bạn không muốn thay đổi gì chọn `Finish`. Nếu muốn thay đồi chọn `Customize Harware...`
 <img src="https://user-images.githubusercontent.com/79830542/159162341-9673f43a-1781-415b-b5cc-70892ebafe44.png" width="850" />
 
-Chờ máy tự hoàn tất quá trình đọc file IOS của Ubuntu Server. sau khi hoàn tất sẽ hiện lên giao diện cài đặt. Đầu tiên là lựa chọn ngôn ngữ. Dùng phím `Enter` để chọn, các phím `Mũi teen` trên bàn phím để thay đổi lựa chọn.
+Chờ máy tự hoàn tất quá trình đọc file IOS của Ubuntu Server. sau khi hoàn tất sẽ hiện lên giao diện cài đặt. Đầu tiên là lựa chọn ngôn ngữ. Dùng phím `Enter` để chọn, các phím `Mũi tên` trên bàn phím để thay đổi lựa chọn.
+
 <img src="https://user-images.githubusercontent.com/79830542/159162491-57feca28-909a-4f10-920c-8c2bc23bbd41.png" width="850" /> 
 
 Chọn các cài đặt về bàn phím, mình để mặc định là tiếng Anh. Chọn `Done`
+
 <img src="https://user-images.githubusercontent.com/79830542/159162616-9b51b44d-e349-46ca-9978-be30bf1e96c7.PNG" width="850" /> 
 
 Cấu hình mạng cho Server. Nên để mặc định nếu mới bất đầu tìm hiểu về Ubuntu Server. Ở đây để mặc định, chọn `Done`
+
 <img src="https://user-images.githubusercontent.com/79830542/159162716-b5eb306e-526c-497e-9a29-4c156e8db16b.PNG" width="850" />
 
 Nếu bạn có 1 mạng cục bộ và muốn Server kết nối tới mạng đó thì hãy nhập `Proxy address` nếu không có hãy để trống, chọn `Done`
+
 <img src="https://user-images.githubusercontent.com/79830542/159162872-562d61b2-794d-4253-8b3a-82dbe85d553e.PNG" width="850" />
 
 Sau khi cài thành công mạng, hệ thống sẽ tự chọn đến 1 địa chỉ máy chủ gần nhất để tải các gói cần thiết và cập nhật sau này.
+
 <img src="https://user-images.githubusercontent.com/79830542/159163070-979aa680-b2e6-4442-9944-8f1e37811651.PNG" width="850" /> 
 
 Bước tiếp theo là chọn phân vùng ổ cứng để cài đặt. VMware đã tự chọn 1 phân dùng duy nhất có 20GB, chọn `Done` để chuyển sang bước sau.
