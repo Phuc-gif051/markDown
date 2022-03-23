@@ -87,12 +87,11 @@ Các thông tin chi tiết hơn về Red Hat có thể xem [tại đây](https:/
    Trước đây gọi là Fedora Core, là một Bản phân phối Linux dựa trên RPM Package Manager, được phát triển dựa trên cộng đồng theo Fedora Project và được bảo trợ bởi Red Hat, một công ty con của IBM, với sự hỗ trợ thêm từ các công ty khác và cộng đồng người dùng lên đến 1,2 triệu người (năm 2016)
    
    Bắt đầu từ Fedora version 30, có 5 phiên bản khác nhau:
-   
-    - Fedora Workstation: Nó nhắm đến những người dùng muốn có một hệ điều hành đáng tin cậy, thân thiện với người dùng và mạnh mẽ cho máy tính xách tay hoặc máy tính để bàn của họ. Nó đi kèm với GNOME theo mặc định nhưng các máy tính để bàn khác có thể được cài đặt hoặc có thể được cài đặt trực tiếp dưới dạng [Spins](https://vi.wikipedia.org/wiki/Fedora#Spins_v%C3%A0_Remixes).
-    - Fedora Server: Mục tiêu sử dụng của nó là cho các máy chủ. Nó bao gồm các công nghệ trung tâm dữ liệu mới nhất. Phiên bản này không đi kèm với môi trường desktop.
-    - CoreOS: tập trung vào điện toán đám mây, chủ yếu dùng để quản lý một cụm máy. Bảng điều khiển CoreUpdate cung cấp thông tin về tình trạng máy, các dịch vụ đang chạy và tình trạng cụm.
-    - Fedora IoT: Một phiên bản của Fedora được điều chỉnh để chạy trên các thiết bị [Internet of Things](https://vi.wikipedia.org/wiki/Internet_V%E1%BA%A1n_V%E1%BA%ADt).
-    - Silverblue: tập trung vào máy tính để bàn, chuyên dụng cho quy trình làm việc dựa trên container và IoT.
+   - Fedora Workstation: Nó nhắm đến những người dùng muốn có một hệ điều hành đáng tin cậy, thân thiện với người dùng và mạnh mẽ cho máy tính xách tay hoặc máy tính để bàn của họ. Nó đi kèm với GNOME theo mặc định nhưng các máy tính để bàn khác có thể được cài đặt hoặc có thể được cài đặt trực tiếp dưới dạng [Spins](https://vi.wikipedia.org/wiki/Fedora#Spins_v%C3%A0_Remixes).
+   - Fedora Server: Mục tiêu sử dụng của nó là cho các máy chủ. Nó bao gồm các công nghệ trung tâm dữ liệu mới nhất. Phiên bản này không đi kèm với môi trường desktop.
+   - CoreOS: tập trung vào điện toán đám mây, chủ yếu dùng để quản lý một cụm máy. Bảng điều khiển CoreUpdate cung cấp thông tin về tình trạng máy, các dịch vụ đang chạy và tình trạng cụm.
+   - Fedora IoT: Một phiên bản của Fedora được điều chỉnh để chạy trên các thiết bị [Internet of Things](https://vi.wikipedia.org/wiki/Internet_V%E1%BA%A1n_V%E1%BA%ADt).
+   - Silverblue: tập trung vào máy tính để bàn, chuyên dụng cho quy trình làm việc dựa trên container và IoT.
     
    <img src="https://user-images.githubusercontent.com/79830542/159710039-d28bda09-53ac-43e6-a8db-793e8e1de300.png"  witdth="850"/> 
      
