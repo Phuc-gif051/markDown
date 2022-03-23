@@ -85,11 +85,17 @@ Các thông tin chi tiết hơn về Red Hat có thể xem [tại đây](https:/
    #### 2.2.1 Fedora
 
    Trước đây gọi là Fedora Core, là một Bản phân phối Linux dựa trên RPM Package Manager, được phát triển dựa trên cộng đồng theo Fedora Project và được bảo trợ bởi Red Hat, một công ty con của IBM, với sự hỗ trợ thêm từ các công ty khác và cộng đồng người dùng lên đến 1,2 triệu người (năm 2016)
+   
    Bắt đầu từ Fedora version 30, có 5 phiên bản khác nhau:
+   
     - Fedora Workstation: Nó nhắm đến những người dùng muốn có một hệ điều hành đáng tin cậy, thân thiện với người dùng và mạnh mẽ cho máy tính xách tay hoặc máy tính để bàn của họ. Nó đi kèm với GNOME theo mặc định nhưng các máy tính để bàn khác có thể được cài đặt hoặc có thể được cài đặt trực tiếp dưới dạng [Spins](https://vi.wikipedia.org/wiki/Fedora#Spins_v%C3%A0_Remixes).
+    
     - Fedora Server: Mục tiêu sử dụng của nó là cho các máy chủ. Nó bao gồm các công nghệ trung tâm dữ liệu mới nhất. Phiên bản này không đi kèm với môi trường desktop.
+    
     - CoreOS: tập trung vào điện toán đám mây, chủ yếu dùng để quản lý một cụm máy. Bảng điều khiển CoreUpdate cung cấp thông tin về tình trạng máy, các dịch vụ đang chạy và tình trạng cụm.
+    
     - Fedora IoT: Một phiên bản của Fedora được điều chỉnh để chạy trên các thiết bị [Internet of Things](https://vi.wikipedia.org/wiki/Internet_V%E1%BA%A1n_V%E1%BA%ADt).
+    
     - Silverblue: tập trung vào máy tính để bàn, chuyên dụng cho quy trình làm việc dựa trên container và IoT.
     
    <img src="https://user-images.githubusercontent.com/79830542/159710039-d28bda09-53ac-43e6-a8db-793e8e1de300.png"  witdth="850"/> 
@@ -98,7 +104,7 @@ Các thông tin chi tiết hơn về Red Hat có thể xem [tại đây](https:/
 
 Red Hat Enterprise Linux (RHEL) là một bản phân phối Linux được phát triển bởi Red Hat và mục tiêu hướng tới thị trường thương mại. Red Hat Enterprise Linux được phát hành cho các phiên bản máy chủ và cả các phiên bản máy tính để bàn x86, x86-64.
 
-Red Hat đã công bố mã nguồn hoàn thiện của bản phân phối dành cho doanh nghiệp của mình đến tất cả những ai muốn có nó thông qua trang FTP của họ. Theo đó, một số nhóm đã lấy mã nguồn và biên dịch thành phiên bản riêng của Red Hat Enterprise Linux, thường thay đổi duy nhất là loại bỏ các tài liệu tham khảo có liên quan đến thương hiệu của Red Hat và trỏ hệ thống cập nhật đến các máy chủ không Red Hat. Các nhóm đã thực hiện việc này bao gồm: CentOS (bản phân phối Linux phổ biến thứ 8 vào tháng 11/2011), Oracle Linux, Scientific Linux, White Box Enterprise Linux, StartCom Enterprise Linux, Pie Box Enterprise Linux, X/OS, Lineox, và XBAS của Bull cho các máy tính hiệu năng cao.
+Red Hat đã công bố mã nguồn hoàn thiện của bản phân phối dành cho doanh nghiệp của mình đến tất cả những ai muốn có nó thông qua trang FTP của họ. Theo đó, một số nhóm đã lấy mã nguồn và biên dịch thành phiên bản riêng của Red Hat Enterprise Linux,thông thường thay đổi duy nhất là loại bỏ các tài liệu tham khảo có liên quan đến thương hiệu của Red Hat và trỏ hệ thống cập nhật đến các máy chủ không Red Hat. Các nhóm đã thực hiện việc này bao gồm: CentOS (bản phân phối Linux phổ biến thứ 8 vào tháng 11/2011), Oracle Linux, Scientific Linux, White Box Enterprise Linux, StartCom Enterprise Linux, Pie Box Enterprise Linux, X/OS, Lineox, và XBAS của Bull cho các máy tính hiệu năng cao.
 
 Các bản rebuild của Red Hat Enterprise Linux là miễn phí nhưng không nhận được bất kỳ dịch vụ hỗ trợ thương mại hoặc tư vấn nào từ Red Hat và không có bất kỳ xác nhận nào về phần mềm, phần cứng và an ninh. Ngoài ra, rebuild không nhận được quyền truy cập vào các dịch vụ của Red Hat như Red Hat Network.
 
