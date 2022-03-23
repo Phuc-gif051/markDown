@@ -1,15 +1,25 @@
+# MỤC LỤC 
+	- [I. Distro linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#i-distro-linux)
+	 - [1. Định nghĩa](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-%C4%91%E1%BB%8Bnh-ngh%C4%A9a)
+	 - [2. Các nhánh của distro linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-c%C3%A1c-nh%C3%A1nh-c%E1%BB%A7a-distro-linux)
+	   - [2.1 Debian](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#21-debian)
+	   - [2.2 Red hat](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#22-red-hat)
+	   - [2.3 Slackware](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#23-slackware) 
+	- [II. Unix và Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#ii-unix-v%C3%A0-linux)
+	 - [1. Unix](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-unix)
+	 - [2. Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-linux)
 # I. Distro linux
 
 Với những người mới tìm hiểu về Linux thì thi thoảng ta sẽ bắt gặp cụm từ `Distro linux`. Có lẽ sẽ khá thắc mắc, vậy sau đây ta sẽ tiến hành làm rõ cụm từ này và một vài thứ liên quan tới nó.
 
-## 1. Định nghĩa 
+ ## 1. Định nghĩa 
 
 `Distro` là 1 thuật ngữ không chính thức trong thế giới của `Linux` nó được hiều với nghĩa là các `Phiên bản` của `Linux`.
 Không giống như `Window`, `Linux` là 1 mã nguồn mở, nó cho phép mọi người tham gia vào quá trình phát triển của mình, miễn là tuân thủ quy định. Cho phép mọi người can thiệp vào mã nguồn, chỉnh sửa sao cho phù hợp với mục đích cá nhân. Và thế là các công ty, tổ chức có nguồn lực lớn họ bắt đầu chỉnh sửa nó và tạo ra các phiên bản khác nhau của `Linux`. Trong vũ trụ của `Linux` các phiên bản đó được gọi là `Distro linux`. 
 
 ## 2. Các nhánh của distro linux
 **Hiện nay có 3 nhánh chính đó là: Debian, Red Hat, Slackware.** 
-### 2.1 Debian
+ ### 2.1 Debian
 
 <img src="https://user-images.githubusercontent.com/79830542/159442989-2a4b6155-e6b5-41f1-9aee-3b9692712951.png" width="650" />
 
@@ -98,7 +108,7 @@ Hiện tại Red Hat sử dụng Fedora làm nơi thử nghiệm các tính năn
 
 Đồi với người dùng cá nhân khi cho rằng chi phí là quá lớn cho việc mua RHEL thì có 1 lựa chọn không tồi đó là CentOS. Nó chỉ khác RHEL ở việc không được sử dụng các dịch vụ của Red Hat, vì mã nguồn của CentOS chính là RHEL.
 
- ### 2.3 Slackware
+  ### 2.3 Slackware
 
 <img src="https://user-images.githubusercontent.com/79830542/159445300-69c29b85-1670-4df5-b090-5a1aaeb1638e.png" width="" />
 
@@ -110,7 +120,7 @@ Một trong những bản phân phối dựa trên Slackware đáng chú ý nh�
 
 Hiện nay Linux nổi tiếng hơn Unix nhưng Unix vẫn có lượng người dùng riêng. Trong khi Linux là một nguồn mở, tự do sử dụng hệ điều hành dùng rộng rãi cho phần cứng và phần mềm máy tính, phát triển trò chơi, máy tính PCs, máy tính lớn, thì Unix là một hệ điều hành độc quyền thường được sử dụng trong máy chủ, máy trạm và máy tính cá nhân Internet của Solaris, Intel, HP,… Unix là một hệ điều hành máy tính đa nhiệm, được phát triển từ những năm 1960 tại trung tâm nghiên cứu Bell Labs của Ken Thompson, Dennis Ritchie và những cộng sự.
 
-## 1. Unix
+ ## 1. Unix
 
 UNIX là một hệ điều hành được phát triển vào thập kỷ 60. Nó là một hệ thống đa nhiệm, đa người dùng và ổn định đối với các máy chủ, máy trạm hoặc các laptop. Hệ điều hành Unix hoạt động chủ yếu trên giao diện dòng lệnh, tuy nhiên, gần đây đã có sự phát triển cho giao điện đồ họa người dùng trên các hệ thống Unix.
 
@@ -132,13 +142,13 @@ Các phiên bản khác nhau của hệ điều hành Unix bao gồm:
 
 Ví dụ về hệ điều hành Unix: Solaris
 
-<img scr="https://user-images.githubusercontent.com/79830542/159734147-9a32def9-c4ad-462b-81fc-66bff85ad600.png" witdth="850">
+<img scr="https://user-images.githubusercontent.com/79830542/159735493-7493e74d-c74f-4763-a34b-48f29bc733cf.png" witdth="850">
 
 Gần như toàn bộ hệ điều hành được viết bằng ngôn ngữ lập trình C, cho phép Unix hoạt động trên nhiều nền tảng.Nhưng chủ yếu được sử dụng trên các hệ thống máy chủ lớn, máy tính lớn, hệ thống máy tính cao cấp ở các tập đoàn đa quốc gia và các tổ chức lớn vì tính bảo mật. Unix đang được duy trì, phát triển và cập nhật bởi các nhà phát triển thuộc công ty viễn thông AT & T. Tuy nhiên, họ không khuyến khích phát triển mã nguồn mở.
 
 Nhưng năm 1983, Richard Stallman giới thiệu dự án GNU (viết tắt của "GNU's Not Unix"), một nỗ lực đầy tham vọng để tạo ra một hệ thống tương tự Unix tự do; "tự do" theo nghĩa là mọi người nhận được một bản sao để: sử dụng, nghiên cứu, sửa đổi và phân phối lại nó tự do. Dự án phát triển nhân riêng của dự án GNU là GNU Hurd, chưa tạo ra hạt nhân hoạt động, nhưng vào năm 1991, Linus Torvalds đã phát hành nhân Linux dưới dạng phần mềm tự do theo [GNU General Public License](https://vi.wikipedia.org/wiki/Gi%E1%BA%A5y_ph%C3%A9p_C%C3%B4ng_c%E1%BB%99ng_GNU).
 
-## 2. Linux
+ ## 2. Linux
 
 Linux là một hệ điều hành mã nguồn mở dựa trên Unix. Linux về cơ bản là tên của 1 loại hạt nhân và đã được phát triển vào năm 1991. Hạt nhân Linux do cộng đồng phát triển và mọi thứ được giám sát bởi Linux Torvalds. Ngoài giao diện dòng lệnh, Linux còn có một giao diện đồ họa người dùng như hệ điều hành Windows và các ứng dụng khác để làm cho nó trở thành một hệ điều hành hoàn chỉnh.
 
@@ -170,3 +180,5 @@ Có tương đối nhiều bản phân phối hoặc các phiên bản của h�
 
 Vì dụ về hệ điều hành Ubuntu:
 <img src="https://user-images.githubusercontent.com/79830542/159734790-f21a86d5-e1f5-461a-a201-606f9c12898b.png" witdth="850">
+
+**Bài viết tham khảo tại `Quantrimang.com`, `Bách khoa toàn thư online (wiki), trang chủ của `Debian`, `Red Hat`, `Techshare,vn**
