@@ -142,7 +142,7 @@ Các phiên bản khác nhau của hệ điều hành Unix bao gồm:
 
 Ví dụ về hệ điều hành Unix: Solaris
 
-<img scr="https://user-images.githubusercontent.com/79830542/159735493-7493e74d-c74f-4763-a34b-48f29bc733cf.png" witdth="850">
+<img scr="https://user-images.githubusercontent.com/79830542/159738625-5d5f795c-6e18-4e27-876a-8c689350c166.png" witdth="" />
 
 Gần như toàn bộ hệ điều hành được viết bằng ngôn ngữ lập trình C, cho phép Unix hoạt động trên nhiều nền tảng.Nhưng chủ yếu được sử dụng trên các hệ thống máy chủ lớn, máy tính lớn, hệ thống máy tính cao cấp ở các tập đoàn đa quốc gia và các tổ chức lớn vì tính bảo mật. Unix đang được duy trì, phát triển và cập nhật bởi các nhà phát triển thuộc công ty viễn thông AT & T. Tuy nhiên, họ không khuyến khích phát triển mã nguồn mở.
 
@@ -181,4 +181,4 @@ Có tương đối nhiều bản phân phối hoặc các phiên bản của h�
 Vì dụ về hệ điều hành Ubuntu:
 <img src="https://user-images.githubusercontent.com/79830542/159734790-f21a86d5-e1f5-461a-a201-606f9c12898b.png" witdth="850">
 
-**Bài viết tham khảo tại `Quantrimang.com`, `Bách khoa toàn thư online (wiki), trang chủ của `Debian`, `Red Hat`, `Techshare,vn**
+**Bài viết tham khảo tại `Quantrimang.com`, `Bách khoa toàn thư online (wiki)`, trang chủ của `Debian`, `Red Hat`, `Techshare,vn`**
