@@ -108,4 +108,65 @@ Một trong những bản phân phối dựa trên Slackware đáng chú ý nh�
 
 # II. Unix và Linux 
 
-Hiện nay Linux nổi tiếng hơn Unix nhưng Unix lượng người dùng riêng. Trong khi Linux là một nguồn mở, tự do sử dụng hệ điều hành dùng rộng rãi cho phần cứng và phần mềm máy tính, phát triển trò chơi, máy tính PCS, máy tính lớn, thì Unix là một hệ điều hành độc quyền thường được sử dụng trong máy chủ, máy trạm và máy tính cá nhân Internet của Solaris, Intel, HP,… Unix là một hệ điều hành máy tính đa nhiệm, được phát triển từ những năm 1970 tại trung tâm nghiên cứu Bell Labs của Ken Thompson, Dennis Ritchie và những người khác.
+Hiện nay Linux nổi tiếng hơn Unix nhưng Unix vẫn có lượng người dùng riêng. Trong khi Linux là một nguồn mở, tự do sử dụng hệ điều hành dùng rộng rãi cho phần cứng và phần mềm máy tính, phát triển trò chơi, máy tính PCs, máy tính lớn, thì Unix là một hệ điều hành độc quyền thường được sử dụng trong máy chủ, máy trạm và máy tính cá nhân Internet của Solaris, Intel, HP,… Unix là một hệ điều hành máy tính đa nhiệm, được phát triển từ những năm 1960 tại trung tâm nghiên cứu Bell Labs của Ken Thompson, Dennis Ritchie và những cộng sự.
+
+## 1. Unix
+
+UNIX là một hệ điều hành được phát triển vào thập kỷ 60. Nó là một hệ thống đa nhiệm, đa người dùng và ổn định đối với các máy chủ, máy trạm hoặc các laptop. Hệ điều hành Unix hoạt động chủ yếu trên giao diện dòng lệnh, tuy nhiên, gần đây đã có sự phát triển cho giao điện đồ họa người dùng trên các hệ thống Unix.
+
+Unix hỗ trợ tương đối khá ít các hệ thống tập tin. Nó chỉ hỗ trợ các hệ thống tập tin sau đây:
+
+zfs, js, hfx, gps, xfs, vxfs
+
+Các hệ thống Unix được đặc trưng bởi một thiết kế mô-đun đôi khi được gọi là "Triết lý Unix", nghĩa là hệ điều hành cung cấp một tập hợp các công cụ đơn giản, và mỗi công cụ chỉ thực hiện những chức năng giới hạn và được định nghĩa rõ ràng. Một hệ thống file hợp nhất (Unix filesystem) và một cơ chế giao tiếp giữa các tiến trình được gọi là "pipes" đóng vai trò là phương tiện giao tiếp chính, và một shell (Unix shell) được sử dụng để kết hợp các công cụ để thực hiện các quy trình công việc phức tạp. 
+
+Hệ điều hành Unix không có tính di động. Có tương đối ít các bản phân phối hoặc các phiên bản khác của hệ điều hành này.
+
+Các phiên bản khác nhau của hệ điều hành Unix bao gồm:
+
+    - AIS (IBM)
+    - BSD
+    - HP – UX
+    - Solaris
+    - Iris
+
+Ví dụ về hệ điều hành Unix: Solaris
+
+<img scr="https://user-images.githubusercontent.com/79830542/159734147-9a32def9-c4ad-462b-81fc-66bff85ad600.png" witdth="850">
+
+Gần như toàn bộ hệ điều hành được viết bằng ngôn ngữ lập trình C, cho phép Unix hoạt động trên nhiều nền tảng.Nhưng chủ yếu được sử dụng trên các hệ thống máy chủ lớn, máy tính lớn, hệ thống máy tính cao cấp ở các tập đoàn đa quốc gia và các tổ chức lớn vì tính bảo mật. Unix đang được duy trì, phát triển và cập nhật bởi các nhà phát triển thuộc công ty viễn thông AT & T. Tuy nhiên, họ không khuyến khích phát triển mã nguồn mở.
+
+Nhưng năm 1983, Richard Stallman giới thiệu dự án GNU (viết tắt của "GNU's Not Unix"), một nỗ lực đầy tham vọng để tạo ra một hệ thống tương tự Unix tự do; "tự do" theo nghĩa là mọi người nhận được một bản sao để: sử dụng, nghiên cứu, sửa đổi và phân phối lại nó tự do. Dự án phát triển nhân riêng của dự án GNU là GNU Hurd, chưa tạo ra hạt nhân hoạt động, nhưng vào năm 1991, Linus Torvalds đã phát hành nhân Linux dưới dạng phần mềm tự do theo [GNU General Public License](https://vi.wikipedia.org/wiki/Gi%E1%BA%A5y_ph%C3%A9p_C%C3%B4ng_c%E1%BB%99ng_GNU).
+
+## 2. Linux
+
+Linux là một hệ điều hành mã nguồn mở dựa trên Unix. Linux về cơ bản là tên của 1 loại hạt nhân và đã được phát triển vào năm 1991. Hạt nhân Linux do cộng đồng phát triển và mọi thứ được giám sát bởi Linux Torvalds. Ngoài giao diện dòng lệnh, Linux còn có một giao diện đồ họa người dùng như hệ điều hành Windows và các ứng dụng khác để làm cho nó trở thành một hệ điều hành hoàn chỉnh.
+
+Hệ điều hành Linux có cả giao diện đồ họa người dùng (GUI) và giao diện dòng lệnh (CLI). Linux hoạt động với môi trường Desktop KDE và GNOME như giao diện GUI của hệ điều hành này. Còn giao diện dòng lệnh (CLI) là chức năng tùy chọn đối với hệ điều hành Linux.
+
+Linux có thể được phân phối tự do qua tạp chí, sách báo hoặc tải về một cách miễn phí… Có những bản phân phối mất phí như Red Hat Linux, nhưng thường rẻ hơn Windows.
+
+Linux là một hệ điều hành rất linh hoạt và tương thích với hầu hết các hệ thống phần cứng. Hệ điều hành Linux có thể được cài đặt và thực hiện trên hầu hết các loại máy tính có bộ xử lý. Vì nó rất linh hoạt và dễ hoạt động nên Linux có thể được cài đặt trên nhiều loại thiết bị khác nhau, từ điện thoại di động, máy tính bảng cho đến máy chơi game, máy tính chủ và siêu máy tính.
+
+Linux là một hệ điều hành nguồn mở, mã nguồn của nó có sẵn và miễn phí. Do đó, bạn có thể đọc, sửa đổi và thực hiện nó trên máy tính riêng của bạn. Tuy nhiên, bạn không thể bán nó vì nó có bản quyền được cấp Giấy phép Công Cộng GNU.
+
+Linux có khả năng mở rộng rất cao và hỗ trợ một hệ thống tập tin thực sự lớn. Nói chung, việc cài đặt Linux thực sự rất tiết kiệm so với Unix vì nó không yêu cầu phần cứng đặc biệt để hoạt động và các hệ điều hành chính của nó đều miễn phí hoặc rất rẻ.
+
+Linux hỗ trợ các hệ thống tập tin rộng lớn, một vài dạng tiêu biểu:
+
+xfs, ramfs, nfs, vfat, cramfsm ext3, ext4, ext2, ext1, ufs, autofs, devpts, ntfs….
+
+Có tương đối nhiều bản phân phối hoặc các phiên bản của hệ điều hành Linux. Các bản phân phối dành cho Linux như sau:
+
+    Redhat
+    Kali
+    Slackware
+    Debian
+    ArchLinux
+    Solaris
+    Ubuntu
+    CentOS
+    Fedora
+
+Vì dụ về hệ điều hành Ubuntu:
+<img src="https://user-images.githubusercontent.com/79830542/159734790-f21a86d5-e1f5-461a-a201-606f9c12898b.png" witdth="850">
