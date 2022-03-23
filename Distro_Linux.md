@@ -1,13 +1,13 @@
 # MỤC LỤC 
-	- [I. Distro linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#i-distro-linux)
-	 - [1. Định nghĩa](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-%C4%91%E1%BB%8Bnh-ngh%C4%A9a)
-	 - [2. Các nhánh của distro linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-c%C3%A1c-nh%C3%A1nh-c%E1%BB%A7a-distro-linux)
-	   - [2.1 Debian](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#21-debian)
-	   - [2.2 Red hat](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#22-red-hat)
-	   - [2.3 Slackware](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#23-slackware) 
-	- [II. Unix và Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#ii-unix-v%C3%A0-linux)
-	 - [1. Unix](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-unix)
-	 - [2. Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-linux)
+ - [I. Distro linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#i-distro-linux)
+   - [1. Định nghĩa](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-%C4%91%E1%BB%8Bnh-ngh%C4%A9a)
+   - [2. Các nhánh của distro linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-c%C3%A1c-nh%C3%A1nh-c%E1%BB%A7a-distro-linux)
+     - [2.1 Debian](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#21-debian)
+     - [2.2 Red hat](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#22-red-hat)
+     - [2.3 Slackware](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#23-slackware) 
+ - [II. Unix và Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#ii-unix-v%C3%A0-linux)
+   - [1. Unix](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-unix)
+   - [2. Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-linux)
 # I. Distro linux
 
 Với những người mới tìm hiểu về Linux thì thi thoảng ta sẽ bắt gặp cụm từ `Distro linux`. Có lẽ sẽ khá thắc mắc, vậy sau đây ta sẽ tiến hành làm rõ cụm từ này và một vài thứ liên quan tới nó.
