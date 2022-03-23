@@ -60,7 +60,7 @@ Debian hỗ trợ hơn 3.950 ứng dụng miễn phí và hoàn toàn có thể 
      
  **Còn một số phiên bản khác dựa trên Ubuntu nhưng có vẻ nhu chúng không có quá nhiều nổi bật nên khá ít người dùng và không được quan tâm quá nhiều** 
      
-### 2.2 Red Hat
+   ### 2.2 Red Hat
 
 <img src="https://user-images.githubusercontent.com/79830542/159443305-3f5b54f2-d338-4c8e-a8ea-360e251bba6c.png"  />
 [Red Hat, Inc.](https://www.redhat.com/en) là một công ty phần mềm Mỹ cung cấp sản phẩm phần mềm mã nguồn mở cho cộng đồng doanh nghiệp. Thành lập năm 1993, Red Hat có trụ sở tại Raleigh, North Carolina với các chi nhánh trên toàn thế giới. 
@@ -72,7 +72,7 @@ Red Hat 9 đã có vòng đời chỉ hơn 1 năm với ngày phát hành vào t
 
 Các thông tin chi tiết hơn về Red Hat có thể xem [tại đây](https://vi.wikipedia.org/wiki/RedHat#Ch%C6%B0%C6%A1ng_tr%C3%ACnh_v%C3%A0_d%E1%BB%B1_%C3%A1n).
 
-#### 2.2.1 Fedora
+   #### 2.2.1 Fedora
 
    Trước đây gọi là Fedora Core, là một Bản phân phối Linux dựa trên RPM Package Manager, được phát triển dựa trên cộng đồng theo Fedora Project và được bảo trợ bởi Red Hat, một công ty con của IBM, với sự hỗ trợ thêm từ các công ty khác và cộng đồng người dùng lên đến 1,2 triệu người (năm 2016)
    Bắt đầu từ Fedora version 30, có 5 phiên bản khác nhau:
@@ -80,13 +80,32 @@ Các thông tin chi tiết hơn về Red Hat có thể xem [tại đây](https:/
     - Fedora Server: Mục tiêu sử dụng của nó là cho các máy chủ. Nó bao gồm các công nghệ trung tâm dữ liệu mới nhất. Phiên bản này không đi kèm với môi trường desktop.
     - CoreOS: tập trung vào điện toán đám mây, chủ yếu dùng để quản lý một cụm máy. Bảng điều khiển CoreUpdate cung cấp thông tin về tình trạng máy, các dịch vụ đang chạy và tình trạng cụm.
     - Fedora IoT: Một phiên bản của Fedora được điều chỉnh để chạy trên các thiết bị [Internet of Things](https://vi.wikipedia.org/wiki/Internet_V%E1%BA%A1n_V%E1%BA%ADt).
-    - Silverblue: tập trung vào máy tính để bàn, chuyên dụng cho quy trình làm việc dựa trên container và IoT
+    - Silverblue: tập trung vào máy tính để bàn, chuyên dụng cho quy trình làm việc dựa trên container và IoT.
     
-    
-### 2.3 Slackware
+   <img src="https://user-images.githubusercontent.com/79830542/159710039-d28bda09-53ac-43e6-a8db-793e8e1de300.png"  witdth="850"/> 
+     
+   #### 2.2.2 Red Hat Enterprise Linux
+
+Red Hat Enterprise Linux (RHEL) là một bản phân phối Linux được phát triển bởi Red Hat và mục tiêu hướng tới thị trường thương mại. Red Hat Enterprise Linux được phát hành cho các phiên bản máy chủ và cả các phiên bản máy tính để bàn x86, x86-64.
+
+Red Hat đã công bố mã nguồn hoàn thiện của bản phân phối dành cho doanh nghiệp của mình đến tất cả những ai muốn có nó thông qua trang FTP của họ. Theo đó, một số nhóm đã lấy mã nguồn và biên dịch thành phiên bản riêng của Red Hat Enterprise Linux, thường thay đổi duy nhất là loại bỏ các tài liệu tham khảo có liên quan đến thương hiệu của Red Hat và trỏ hệ thống cập nhật đến các máy chủ không Red Hat. Các nhóm đã thực hiện việc này bao gồm: CentOS (bản phân phối Linux phổ biến thứ 8 vào tháng 11/2011), Oracle Linux, Scientific Linux, White Box Enterprise Linux, StartCom Enterprise Linux, Pie Box Enterprise Linux, X/OS, Lineox, và XBAS của Bull cho các máy tính hiệu năng cao.
+
+Các bản rebuild của Red Hat Enterprise Linux là miễn phí nhưng không nhận được bất kỳ dịch vụ hỗ trợ thương mại hoặc tư vấn nào từ Red Hat và không có bất kỳ xác nhận nào về phần mềm, phần cứng và an ninh. Ngoài ra, rebuild không nhận được quyền truy cập vào các dịch vụ của Red Hat như Red Hat Network.
+
+Hiện tại Red Hat sử dụng Fedora làm nơi thử nghiệm các tính năng mà nó muốn triển khai trong RHEL. Các tính năng này được đưa vào RHEL và bản phát hành mới nhất của RHEL. Không giống như Fedora được phát hành phiên bản mới khoảng 6 tháng 1 lần, thì RHEL được duy trì vòng đời lâu hơn là khoảng 2 năm (hoặc nhiều hơn) cho 1 lần cập nhật chính thức.
+
+<img src="http://upload.wikimedia.org/wikipedia/en/timeline/648ebfb248ce0cc99f263ba4471fe7eb.png"  witdth="850"/>
+
+Đồi với người dùng cá nhân khi cho rằng chi phí là quá lớn cho việc mua RHEL thì có 1 lựa chọn không tồi đó là CentOS. Nó chỉ khác RHEL ở việc không được sử dụng các dịch vụ của Red Hat, vì mã nguồn của CentOS chính là RHEL.
+
+ ### 2.3 Slackware
 
 <img src="https://user-images.githubusercontent.com/79830542/159445300-69c29b85-1670-4df5-b090-5a1aaeb1638e.png" width="" />
 
 [Slackware Linux](http://www.slackware.com/) hay Slackware được phát triển vào năm 1993 bởi Patrick Volkerding như một hệ điều hành rất giống với Unix. Nó dựa trên Hệ thống Softlanding Linux và do tính ổn định và đơn giản của nó, là cơ sở cho các bản phân phối Linux khác.
 
 Một trong những bản phân phối dựa trên Slackware đáng chú ý nhất là SUSE Linux. Kể từ tháng 02 năm 2022, phiên bản 14 là bản phát hành mới nhất của Slackware. Nó được thiết kế cho cả kiến ​​trúc IA-32 và x86-64, nhưng một cổng cho kiến ​​trúc ARM cũng có sẵn. Nó miễn phí và được coi là phần mềm mã nguồn mở, tuy nhiên, không có kho lưu trữ mã công cộng hoặc theo dõi lỗi chính thức nào được duy trì.
+
+# II. Unix và Linux 
+
+Hiện nay Linux nổi tiếng hơn Unix nhưng Unix lượng người dùng riêng. Trong khi Linux là một nguồn mở, tự do sử dụng hệ điều hành dùng rộng rãi cho phần cứng và phần mềm máy tính, phát triển trò chơi, máy tính PCS, máy tính lớn, thì Unix là một hệ điều hành độc quyền thường được sử dụng trong máy chủ, máy trạm và máy tính cá nhân Internet của Solaris, Intel, HP,… Unix là một hệ điều hành máy tính đa nhiệm, được phát triển từ những năm 1970 tại trung tâm nghiên cứu Bell Labs của Ken Thompson, Dennis Ritchie và những người khác.
