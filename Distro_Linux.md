@@ -28,8 +28,7 @@ Debian được phát âm /ˈde.bi.ən/. Nó xuất phát từ sự kết hợp 
 Xem [lịch sử chi tiết](https://www.debian.org/doc/manuals/project-history/).
 
 Debian là một hệ điều hành máy tính phổ biến và có sẵn, sử dụng Linux kernel và các thành phần chương trình khác thu được từ dự án GNU. Debian có thể được tải xuống qua Internet hoặc mua đĩa cài CD với một khoản phí nhỏ.
-
-Debian là một hệ điều hành máy tính phổ biến và có sẵn, sử dụng Linux kernel và các thành phần chương trình khác thu được từ dự án GNU. Debian có thể được tải xuống qua Internet hoặc trên CD với một khoản phí nhỏ. Là phần mềm nguồn mở, Debian được phát triển bởi sự đóng góp của hơn 500 lập trình viên trong Dự án Debian. Các bản phát hành mới luôn được tung ra thường xuyên. Ongoing service luôn có sẵn thông qua subscription và mailing list.
+Là phần mềm nguồn mở, Debian được phát triển bởi sự đóng góp của hơn 500 lập trình viên trong Dự án Debian. Các bản phát hành mới luôn được tung ra thường xuyên. Ongoing service luôn có sẵn thông qua subscription và mailing list.
 
 Debian hỗ trợ hơn 3.950 ứng dụng miễn phí và hoàn toàn có thể tải xuống. Debian không sở hữu một số ứng dụng phổ biến và nổi tiếng như Microsoft Word và Excel, thay vào đó là các ứng dụng WordPerfect của Corel và các desktop applications tương tự.
 
