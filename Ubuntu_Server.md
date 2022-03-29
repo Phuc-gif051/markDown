@@ -76,55 +76,98 @@ Chờ máy tự hoàn tất quá trình đọc file IOS của Ubuntu Server. sau
 
 <img src="https://user-images.githubusercontent.com/79830542/159162491-57feca28-909a-4f10-920c-8c2bc23bbd41.png" width="850" /> 
 
-Chọn các cài đặt về bàn phím, mình để mặc định là tiếng Anh. Chọn `Done`
+B1: Chọn các cài đặt về bàn phím, mình để mặc định là tiếng Anh. Chọn `Done`
 
 <img src="https://user-images.githubusercontent.com/79830542/159162616-9b51b44d-e349-46ca-9978-be30bf1e96c7.PNG" width="850" /> 
 
-Cấu hình mạng cho Server. Nên để mặc định nếu mới bất đầu tìm hiểu về Ubuntu Server. Ở đây để mặc định, chọn `Done`
+B2: Cấu hình mạng cho Server:
+ - B2.1: Nên để hệ thống sự tạo ra địa chỉ IP nếu mới bất đầu tìm hiểu về Ubuntu Server. Ở đây để mặc định, chọn `Done` đẻ chuyển sang B3.
 
 <img src="https://user-images.githubusercontent.com/79830542/159162716-b5eb306e-526c-497e-9a29-4c156e8db16b.PNG" width="850" />
 
-Nếu bạn có 1 mạng cục bộ và muốn Server kết nối tới mạng đó thì hãy nhập `Proxy address` nếu không có hãy để trống, chọn `Done`
+ - B2.2: Nếu muốn cấu hình IP tĩnh: 
+   - Dùng phím mũi tên di chuyển đến lựa chọn đầu tiên rồi `Enter`, hiện ra 1 menu, chọn `Edit IPv4` hoặc IPv6 theo ý muốn. Ở đây chọn là IPv4.
+
+<img src="https://user-images.githubusercontent.com/79830542/160531054-62f6fd76-b23e-4b3c-ae16-ff5cfe73f2e7.PNG"  witdth="650"/>
+ 
+   - Tại mục `IPv4 Method` ta `Enter` sẽ hiện ra 3 lựa chọn, chọn `Manual` để tiến hành cấu hình
+   
+<img src="https://user-images.githubusercontent.com/79830542/160531576-ad8d6a3f-67bd-4d66-86b3-99d4883b91dc.PNG"  witdth="650"/>
+
+   - Tại đây tiến hành thiết lập các thông số cần thiết để cấu hình IP tĩnh như: Subnet, Address, Gateway,... Ví dụ như hình dưới
+<img src="https://user-images.githubusercontent.com/79830542/160549346-2d21647b-3c6d-449d-8aeb-7766d75605f5.PNG"  witdth="650"/>
+
+B3: Sau khi cấu hình mạng thành công, nếu bạn có `Proxy address` thì hãy nhập thông tin để Server kết nối đến đó, không có thì bỏ trống, chọn `Done` 
 
 <img src="https://user-images.githubusercontent.com/79830542/159162872-562d61b2-794d-4253-8b3a-82dbe85d553e.PNG" width="850" />
 
-Sau khi cài thành công mạng, hệ thống sẽ tự chọn đến 1 địa chỉ máy chủ gần nhất để tải các gói cần thiết và cập nhật sau này.
+B4: Sau khi cài thành công mạng, hệ thống sẽ tự chọn đến 1 địa chỉ máy chủ gần nhất để tải các gói cần thiết và cập nhật sau này.
 
 <img src="https://user-images.githubusercontent.com/79830542/159163070-979aa680-b2e6-4442-9944-8f1e37811651.PNG" width="850" /> 
 
-Bước tiếp theo là chọn phân vùng ổ cứng để cài đặt. VMware đã tự chọn 1 phân dùng duy nhất có 20GB, chọn `Done` để chuyển sang bước sau.
+B5: Bước tiếp theo là chọn phân vùng ổ cứng để cài đặt. VMware đã tự chọn 1 phân dùng duy nhất có 20GB.
+
 <img src="https://user-images.githubusercontent.com/79830542/159163138-4e8a4fb9-f3bc-404f-ad2a-cee7dd89b2c4.PNG" width="850" /> 
 
-Cài đặt cho phân vùng ổ cứng gồm các cài đặt cơ bản như: Nơi để cài BIOS, nơi để cài Server. Hệ thống sẽ tự phân vùng, nên để mặc định. Chọn `Done`
 
-<img src="https://user-images.githubusercontent.com/79830542/159163405-90d53591-2244-4392-a28c-6ea27d8e2813.PNG" width="850" />
+Bạn có thể chọn `Done` để hệ thống tự thiết lập và bỏ qua bước này tới luôn B6
 
-Tất cả dữ liệu hiện tại trên disk đã chọn sẽ bị xóa. Chọn `Continue`.
+<img src="https://user-images.githubusercontent.com/79830542/160593637-d16a012a-cf60-4f27-ad73-2a0f4bf3ab82.PNG"  witdth="650"/>
+
+ - B5.1: Để phân vùng theo nhu cầu nên tích chọn `Set up this disk as an LVM group` để có thể phân vùng ổ cứng theo nhu cầu. Chọn `Done` để chuyển sang bước sau.
+<img src="https://user-images.githubusercontent.com/79830542/159163138-4e8a4fb9-f3bc-404f-ad2a-cee7dd89b2c4.PNG" width="850" /> 
+
+Cài đặt cho phân vùng ổ cứng gồm các cài đặt cơ bản như: Nơi để cài /home, nơi để cài Server... Bình thường để cài đặt server sẽ mất khoảng 10-15GB bộ nhớ. Phần còn lại (**free space**) ta tiến hành phân vùng theo mục đích sử dụng. 
+  - a. Đầu tiên là tạo `/home` nơi lưu trữ dữ liệu người dùng:
+      - Trong mục `free space` nhấn `Enter` hiện ra 1 menu nhỏ, chọn `Edit`.
+      - Chọn `size` cho phân vùng (nên để sau dấu chấm thập phân ít nhất 3 đơn vị, kết thúc bằng **G** để hệ thống biết chính xác bạn cần bao nhiêu dung lượng cho vùng nhớ đó)
+      - `Format` hiện tại là ext4 (đây là định dạng được khuyên dùng dành cho các hệ thống chạy nhân Linux), 
+      - `mount` sẽ chọn là `/home`. Ngoài `/home` còn có 1 số phân vùng khác như: temporary directory (/tmp), các chương trình (/usr) hoặc file log (/var/log).
+
+<img src="https://user-images.githubusercontent.com/79830542/160583967-9e742ccc-b2fc-4f77-8e6c-0aa7abb103d2.PNG" width="650" />
+
+   Chọn `Create` để xác nhận.
+      
+  - b. Tạo phân vùng `Swap`, hay còn được hiểu là RAM ảo của hệ thống. Thường được để bằng 1/2 hoặc bằng với RAM vật lý mà hệ thống có.
+      - Cũng trong mục `free space` nhấn `Enter` hiện ra 1 menu nhỏ, chọn `Edit`. Tiến hành khai báo `Size` cho phân vùng
+      - Mục `Format` tìm chọn đến `swap`, chọn `Done` để tạo
+ <img src="https://user-images.githubusercontent.com/79830542/160590451-3e0e0a7d-38bd-4a54-97c2-5121473e64ce.PNG"  witdth="650"/>
+
+Sau các bước phân vùng cơ bản trên, ta sẽ có thêm 2 phân vùng mới trong ổ đĩa đó là `/home` và `SWAP`, chọn `Done` để tiếp tục.
+<img src="https://user-images.githubusercontent.com/79830542/160591017-873f67b2-39e9-47c8-a452-4f02911a64ee.PNG"  witdth="650"/>
+
+
+B6: Tất cả dữ liệu hiện tại trên disk đã chọn sẽ bị xóa. Chọn `Continue`.
 <img src="https://user-images.githubusercontent.com/79830542/159163442-28fdd3f2-6c03-492c-b31d-98a9ae2f1044.PNG" width="850" />
 
-Đặt tên người dùng, tên máy chủ của hệ thống và mật khẩu
+B7: Đặt tên người dùng, tên máy chủ của hệ thống và mật khẩu
 <img src="https://user-images.githubusercontent.com/79830542/159163503-ab632b70-4173-42fa-ab4b-afcf79ea35b1.PNG" width="850" />
 
-Tùy chọn cho phép cài OpenSSH tới server. Ở đây chọn kết nối tới Github, sau này có thể dùng SSH để điều khiến Server của bạn từ xa thông qua Github
+B8: Tùy chọn cho phép cài OpenSSH tới server. Ở đây chọn kết nối tới Github, sau này có thể dùng SSH để điều khiến Server của bạn từ xa thông qua Github
 
 <img src="https://user-images.githubusercontent.com/79830542/159163602-e4d36d47-b4d5-464f-8519-ab287c6dce1e.PNG" width="850" />
 
-Chọn `Yes` để xác nhận cài SSH trên server của bạn 
+B9: Chọn `Yes` để xác nhận cài SSH trên server của bạn 
 <img src="https://user-images.githubusercontent.com/79830542/159163732-a04927d7-3a0a-4449-8ebd-edbc1218f01e.PNG" width="850" />
 
-Bỏ trống ở bước này, chọn `Done`
+B10: Token này cần phải đăng ký với nhà cung cấp Ubuntu Server. Đây là đăng ký để nhận hỗ trợ trực tiếp và trực tuyến từ nhà cung cấp về các fix lỗi, update cho 1 hoặc nhiều server (phù hợp với những người dùng tiềm năng có hệ thống lớn). Sẽ trống ở bước này, chọn `Done`
 <img src="https://user-images.githubusercontent.com/79830542/159163846-31b39fa6-8292-4312-b91a-1f6eb626982a.PNG" width="850" />
 
-Chọn các phần thêm cho server.
+B11: Chọn các phần thêm cho server.
 Khuyến nghị không chọn thêm bất kì dịch vụ nào và tiến hành cài đặt Ubuntu 20.04 server để quá trình cài đặt được nhanh nhất.
 Rồi chọn `Done`.
 <img src="https://user-images.githubusercontent.com/79830542/159163891-b1f388c9-1c5a-419f-bc08-a82b5e85f123.PNG" width="850" />
 
-Chờ cho quá trình cài đặt hoàn tất, chon `Reboot` 
+B12: Chờ cho quá trình cài đặt hoàn tất, chon `Reboot now` 
 <img src="https://user-images.githubusercontent.com/79830542/159163924-db0ec88a-7901-4ad5-b53e-d9d8c50c0535.PNG" width="850" />
 
-VMware sẽ tự reboot lại Ubuntu Server. Khởi động lại hoàn tất, tiến hành đăng nhập vào server với Username và password đã thiết lập ở trên.
+B13: VMware sẽ tự reboot lại Ubuntu Server. Khởi động lại hoàn tất, tiến hành đăng nhập vào server với Username và password đã thiết lập ở trên.
+
 <img src="https://user-images.githubusercontent.com/79830542/159164149-499e919d-ff86-4108-819e-f9f3ae593509.png" width="850" />
 
 Màn hình đăng nhập thành công
 <img src="https://user-images.githubusercontent.com/79830542/159164799-f549483c-3f83-4503-a0d3-7ea5e67dcf3b.png" width="850" />
+
+
+###### Tài liệu tham khảo
+[Chọn phân vùng Scheme trong Linux](https://quantrimang.com/chon-phan-vung-scheme-trong-linux-72973)
