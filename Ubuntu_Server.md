@@ -20,7 +20,7 @@ Sau Ubuntu 12.04, cả hai phiên bản Server và Desktop đều sử dụng c�
 
 Bạn có thể bắt đầu với Ubuntu Server và cài đặt môi trường desktop, nếu thấy mình không thể chạy nó mà không có giao diện đồ họa. Ngoài ra, bạn có thể bắt đầu với Ubuntu Desktop và thêm các gói cần thiết để tạo máy chủ. Do Ubuntu Server và Desktop chia sẻ cùng một Ubuntu kernel lõi (core), nên sự khác biệt trong cài đặt mặc định không thể ngăn chặn việc cài đặt gói phần mềm trong tương lai.
 
- **Hỗ trợ**
+ **Hỗ trợ** 
 
 Việc hỗ trợ cũng thay đổi kể từ khi bản phát hành 12.04 ra mắt. Trước Ubuntu 12.04 LTS, các phiên bản dành Desktop có chu kỳ hỗ trợ 3 năm. Phiên bản Server có chu kỳ hỗ trợ lên đến 5 năm. Nhưng với sự ra mắt của 12.04 LTS, cả hai phiên bản đều chuyển sang chu kỳ hỗ trợ 5 năm.
 
