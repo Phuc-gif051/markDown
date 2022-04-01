@@ -53,6 +53,22 @@ và người dùng được gợi ý chuyển sang phiên bản CentOS 8-Stream
 Để có sự ổn định nhất trong khi sử dụng, ta vẫn nên sử dụng CentOS 7.9-2009 với thời gian hỗ trợ đã được ấn định tới tháng 6/2024
 
 # III. Cài đặt CentOS
+
+**Bài viết này tiến hành cài đặt trên VMware Workstation Pro bằng file .iso**
+
+## 1. Chuẩn bị
+
+File .iso của CentOS 7-2009, có thể tải về [tại đây.](http://mirrors.vhost.vn/centos/7.9.2009/isos/x86_64/)
+
+**Lưu ý:** File .iso ở link tải bên trên là CentOS 7.9-2009 phù hợp với máy có phần cứng chạy trên kiến trúc tập lệnh x86 64bit.
+Bạn có thể lựa chọn tải về phiên bản đầy đủ (bản DVD với hơn 4GB) hoặc bản thu gọn (minimal với khoảng 1GB).
+  - Với bản DVD đầy đủ: sẽ có các lựa chọn GUI thì bạn có thể chọn KDE hoặc GNOME...Ngoài ra bạn có thể cài các service như DNS, FTP, SAMBA, Basic Web Server...
+  Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...
+  - Với bản minimal thì chỉ có hệ điều hành CentOS, người dùng giao tiếp với với hệ điều hành bằng CLI (Command Line Interface).
+
+Phần mềm ảo hoá VMware Workstation Pro, tải vể [tại đây](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
+
+
 # IV. Tài liệu tham khảo
   [CentOS là gì?](https://wiki.matbao.net/centos-la-gi-tat-tan-tat-thong-tin-ve-he-dieu-hanh-centos/#cac-thong-tin-co-ban-ve-centos)
   
