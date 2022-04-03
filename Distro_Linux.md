@@ -8,6 +8,7 @@
  - [II. Unix và Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#ii-unix-v%C3%A0-linux)
    - [1. Unix](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-unix)
    - [2. Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-linux)
+ - []
 # I. Distro linux
 
 Với những người mới tìm hiểu về Linux thì thi thoảng ta sẽ bắt gặp cụm từ `Distro linux`. Có lẽ sẽ khá thắc mắc, vậy sau đây ta sẽ tiến hành làm rõ cụm từ này và một vài thứ liên quan tới nó.
@@ -193,8 +194,8 @@ Vì dụ về hệ điều hành Ubuntu:
  - /etc: Thư mục này chứa các file cấu hình của các chương trình, đồng thời nó còn chứa các shell script dùng để khởi động hoặc tắt các chương trình khác. Ví dụ: /etc/resolv.conf, /etc/logrolate.conf
  - /dev: Các phân vùng ổ cứng, thiết bị ngoại vi như USB, ổ đĩa cắm ngoài, hay bất cứ thiết bị nào gắn kèm vào hệ thống đều được lưu ở đây. Ví dụ: sdb1 là tên của USB bạn vừa cắm vào máy, để mở được USB này bạn cần sử dụng lệnh mount với quyền root: # mount /dev/sdb1 (với /dev/sdb1 là đường dẫn 
  - /tmp: giống với Window, đây là nơi chứa các file tạm do người dùng và hệ thống tạo ra. Thường sẽ được xoá khi hệ thống khởi động lại
- - /proc: nơi lưu trữ thông tin về các tiến trình đang chạy dưới dạng một hệ thống file thư mục mô phỏng. Ví dụ thư mục con /proc/{pid} chứa các thông tin về tiến trình có ID là pid (pid ~ process ID). Ngoài ra đây cũng là nơi lưu thông tin về về các tài nguyên đang sử dụng của hệ thống như: /proc/version, /proc/uptime...
- - /var: Thông tin về các biến của hệ thống được lưu trong thư mục này. Như thông tin về log file: /var/log, các thư viện: /var/lib...
+ - /proc: nơi lưu trữ thông tin về các tiến trình đang của hệ thống ở dạng file thư mục mô phỏng. Ví dụ thư mục con /proc/{pid} chứa các thông tin về tiến trình có ID là pid (pid ~ process ID). Ngoài ra đây cũng là nơi lưu thông tin về về các tài nguyên đang sử dụng của hệ thống như: /proc/version, /proc/uptime...
+ - /var: Các tệp tin có dung lượng biến đổi theo thời gian sử được lưu trong thư mục này. Như thông tin về log file: /var/log, các thư viện: /var/lib..., thư điện tử (/var/mail)
  - /usr: Chương trình của người dùng; chứa các thư viện, file thực thi, tài liệu hướng dẫn và mã nguồn cho chương trình chạy ở level 2 của hệ thống. Trong đó
     - /usr/bin: chứa các file thực thi của người dùng như: at, awk, cc, less... Nếu bạn không tìm thấy chúng trong /bin hãy tìm trong /usr/bin
     - /usr/sbin: chứa các file thực thi của hệ thống dưới quyền của admin như: atd, cron, sshd... Nếu bạn không tìm thấy chúng trong /sbin thì hãy tìm trong thư mục này.
@@ -204,9 +205,9 @@ Vì dụ về hệ điều hành Ubuntu:
  - /boot: chứa các file cần thiết để khởi động hệ thống
  - /lib: Chứa các thư viện hỗ trợ cho các file thực thi trong /bin và /sbin. Các thư viện này thường có tên bắt đầu bằng ld* hoặc lib*.so.*. Ví dụ như ld-2.11.1.so hay libncurses.so.5.7
  - /opt: thư mục này chứa các chương trình, ứng dụng được cài thêm từ các nhà cung cấp độc lâp khác (Phầm mềm bên thứ 3). Các phần cài thêm sẽ được lưu vào trong các thư mục con của /opt hoặc được lưu luôn ở /opt
- - /mnt: Đây là thư mục tạm để mount các file hệ thống. Ví dụ như # mount /dev/sda2 /mnt
- - /media: Thư mục tạm này chứa các thiết bị như CdRom /media/cdrom. floppy /media/floopy (các thiết bị gắn ngoài có thể gỡ bỏ) hay các phân vùng đĩa cứng /media/Data (hiểu như là ổ D:/Data trong Windows)
- - /srv: Chứa dữ liệu liên quan đến các dịch vụ máy chủ như /srv/svs, chứa các dữ liệu liên quan đến SVS.
+ - /mnt: Đây là thư mục tạm để người quản trị có thể mount các file hệ thống. Ví dụ như # mount /dev/sda2 /mnt
+ - /media: Thư mục tạm này chứa các muont tạm thời thiết bị như Cd-Rom: /media/cdrom. floppy: /media/floopy (các thiết bị gắn ngoài có thể gỡ bỏ) hay các bộ phận đọc ghi ổ đĩa cứng (đĩa CD, DVD,...) /media/cdrecord (hiểu như là ổ D:/Data trong Windows)
+ - /srv: Chứa dữ liệu liên quan đến các dịch vụ máy chủ như /srv/cvs, chứa các dữ liệu liên quan đến CVS.
  - 
 **Bài viết tham khảo tại `Quantrimang.com`, `Bách khoa toàn thư online (wiki)`, trang chủ của `Debian`, `Red Hat`, `Techshare,vn`**
 
