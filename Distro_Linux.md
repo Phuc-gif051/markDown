@@ -181,4 +181,33 @@ Có tương đối nhiều bản phân phối hoặc các phiên bản của h�
 Vì dụ về hệ điều hành Ubuntu:
 <img src="https://user-images.githubusercontent.com/79830542/159734790-f21a86d5-e1f5-461a-a201-606f9c12898b.png" witdth="850">
 
+# III. Cấu trúc thư mục trong Linux ( Cơ bản)
+
+**Cấu trúc thư mục trong Linux nói chung nó là dạng "cây", cơ bản như sau**
+
+<img src="https://user-images.githubusercontent.com/79830542/161430250-adb61028-7303-44c0-b181-12523d5b47c0.png"  witdth="850"/>
+
+ - /: nút gốc hay thư mục gốc (root) đây là nơi bắt đầu của tất cả các file và thư mục. Chỉ có root user mới có quyền ghi trong thư mục này. Chú ý rằng /root là thư mục home của root user chứ không phải là /.
+ - /bin: Thư mục này chứa các chương trình thực thi, hay hiểu đơn giản nó là chương trình dành cho người dùng. Các chương trình chung của Linux được sử dụng bởi tất cả người dùng được lưu ở đây. Ví dụ như: ls (list), rm(remove), ping...
+ - /sbinn: Cũng giống như /bin, /sbinn cũng chứa các chương trình thực thi, nhưng chúng là những chương trình của admin chạy với quyền root user, dành cho việc bảo trì hệ thống. Ví dụ như: reboot, poweroff, iptables...
+ - /etc: Thư mục này chứa các file cấu hình của các chương trình, đồng thời nó còn chứa các shell script dùng để khởi động hoặc tắt các chương trình khác. Ví dụ: /etc/resolv.conf, /etc/logrolate.conf
+ - /dev: Các phân vùng ổ cứng, thiết bị ngoại vi như USB, ổ đĩa cắm ngoài, hay bất cứ thiết bị nào gắn kèm vào hệ thống đều được lưu ở đây. Ví dụ: sdb1 là tên của USB bạn vừa cắm vào máy, để mở được USB này bạn cần sử dụng lệnh mount với quyền root: # mount /dev/sdb1 (với /dev/sdb1 là đường dẫn 
+ - /tmp: giống với Window, đây là nơi chứa các file tạm do người dùng và hệ thống tạo ra. Thường sẽ được xoá khi hệ thống khởi động lại
+ - /proc: nơi lưu trữ thông tin về các tiến trình đang chạy dưới dạng một hệ thống file thư mục mô phỏng. Ví dụ thư mục con /proc/{pid} chứa các thông tin về tiến trình có ID là pid (pid ~ process ID). Ngoài ra đây cũng là nơi lưu thông tin về về các tài nguyên đang sử dụng của hệ thống như: /proc/version, /proc/uptime...
+ - /var: Thông tin về các biến của hệ thống được lưu trong thư mục này. Như thông tin về log file: /var/log, các thư viện: /var/lib...
+ - /usr: Chương trình của người dùng; chứa các thư viện, file thực thi, tài liệu hướng dẫn và mã nguồn cho chương trình chạy ở level 2 của hệ thống. Trong đó
+    - /usr/bin: chứa các file thực thi của người dùng như: at, awk, cc, less... Nếu bạn không tìm thấy chúng trong /bin hãy tìm trong /usr/bin
+    - /usr/sbin: chứa các file thực thi của hệ thống dưới quyền của admin như: atd, cron, sshd... Nếu bạn không tìm thấy chúng trong /sbin thì hãy tìm trong thư mục này.
+    - /usr/lib: chứa các thư viện cho các chương trình trong /usr/bin và /usr/sbin
+    - /usr/local: chứa các chương tình của người dùng được cài từ mã nguồn. Ví dụ như bạn cài apache từ mã nguồn, nó sẽ được lưu dưới /usr/local/apache2
+ - /home: nơi chứa các dữ liệu cá nhân của người dùng như: hình ảnh, âm thanh, văn bản,...Mỗi người dùng sẽ có một /home khác nhau vd:/home/user1, và không thấy /home của người dùng khác trừ khi được đăng nhập với quyền root thì sẽ thấy toàn bộ.
+ - /boot: chứa các file cần thiết để khởi động hệ thống
+ - /lib: Chứa các thư viện hỗ trợ cho các file thực thi trong /bin và /sbin. Các thư viện này thường có tên bắt đầu bằng ld* hoặc lib*.so.*. Ví dụ như ld-2.11.1.so hay libncurses.so.5.7
+ - /opt: thư mục này chứa các chương trình, ứng dụng được cài thêm từ các nhà cung cấp độc lâp khác (Phầm mềm bên thứ 3). Các phần cài thêm sẽ được lưu vào trong các thư mục con của /opt hoặc được lưu luôn ở /opt
+ - /mnt: Đây là thư mục tạm để mount các file hệ thống. Ví dụ như # mount /dev/sda2 /mnt
+ - /media: Thư mục tạm này chứa các thiết bị như CdRom /media/cdrom. floppy /media/floopy (các thiết bị gắn ngoài có thể gỡ bỏ) hay các phân vùng đĩa cứng /media/Data (hiểu như là ổ D:/Data trong Windows)
+ - /srv: Chứa dữ liệu liên quan đến các dịch vụ máy chủ như /srv/svs, chứa các dữ liệu liên quan đến SVS.
+ - 
 **Bài viết tham khảo tại `Quantrimang.com`, `Bách khoa toàn thư online (wiki)`, trang chủ của `Debian`, `Red Hat`, `Techshare,vn`**
+
+
