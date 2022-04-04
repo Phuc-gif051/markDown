@@ -8,7 +8,7 @@
  - [II. Unix và Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#ii-unix-v%C3%A0-linux)
    - [1. Unix](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#1-unix)
    - [2. Linux](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#2-linux)
- - []
+ - [III. Cấu trúc thư mục trong Linux ( Cơ bản)](https://github.com/Phuc-gif051/markDown/blob/main/Distro_Linux.md#iii-c%E1%BA%A5u-tr%C3%BAc-th%C6%B0-m%E1%BB%A5c-trong-linux--c%C6%A1-b%E1%BA%A3n)
 # I. Distro linux
 
 Với những người mới tìm hiểu về Linux thì thi thoảng ta sẽ bắt gặp cụm từ `Distro linux`. Có lẽ sẽ khá thắc mắc, vậy sau đây ta sẽ tiến hành làm rõ cụm từ này và một vài thứ liên quan tới nó.
