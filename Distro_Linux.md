@@ -188,7 +188,7 @@ Vì dụ về hệ điều hành Ubuntu:
 
 <img src="https://user-images.githubusercontent.com/79830542/161430250-adb61028-7303-44c0-b181-12523d5b47c0.png"  witdth="850"/>
 
- - /: nút gốc hay thư mục gốc (root) đây là nơi bắt đầu của tất cả các file và thư mục. Chỉ có root user mới có quyền ghi trong thư mục này. Chú ý rằng /root là thư mục home của root user chứ không phải là /.
+ - /: nút gốc hay thư mục gốc (root) đây là nơi bắt đầu của tất cả các file và thư mục. Chỉ có root user mới có quyền ghi trong thư mục này. Chú ý rằng /root là thư mục home của root (là 1 trong các thư mục con của /) user chứ không phải là /.
  - /bin: Thư mục này chứa các chương trình thực thi, hay hiểu đơn giản nó là chương trình dành cho người dùng. Các chương trình chung của Linux được sử dụng bởi tất cả người dùng được lưu ở đây. Ví dụ như: ls (list), rm(remove), ping...
  - /sbinn: Cũng giống như /bin, /sbinn cũng chứa các chương trình thực thi, nhưng chúng là những chương trình của admin chạy với quyền root user, dành cho việc bảo trì hệ thống. Ví dụ như: reboot, poweroff, iptables...
  - /etc: Thư mục này chứa các file cấu hình của các chương trình, đồng thời nó còn chứa các shell script dùng để khởi động hoặc tắt các chương trình khác. Ví dụ: /etc/resolv.conf, /etc/logrolate.conf
@@ -208,7 +208,9 @@ Vì dụ về hệ điều hành Ubuntu:
  - /mnt: Đây là thư mục tạm để người quản trị có thể mount các file hệ thống. Ví dụ như # mount /dev/sda2 /mnt
  - /media: Thư mục tạm này chứa các muont tạm thời thiết bị như Cd-Rom: /media/cdrom. floppy: /media/floopy (các thiết bị gắn ngoài có thể gỡ bỏ) hay các bộ phận đọc ghi ổ đĩa cứng (đĩa CD, DVD,...) /media/cdrecord (hiểu như là ổ D:/Data trong Windows)
  - /srv: Chứa dữ liệu liên quan đến các dịch vụ máy chủ như /srv/cvs, chứa các dữ liệu liên quan đến CVS.
- - 
+### `lab`: Một số thực hành cơ bản
+
+ - Câu lệnh `tree`: hiên các thư mục của hệ thống hiện có ở dạng cây, nếu không có bất kỳ đối số nào thì sẽ hiển thị toàn bộ.  
 **Bài viết tham khảo tại `Quantrimang.com`, `Bách khoa toàn thư online (wiki)`, trang chủ của `Debian`, `Red Hat`, `Techshare,vn`**
 
 
