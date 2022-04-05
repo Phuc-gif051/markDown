@@ -52,3 +52,4 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
    Các file trong /root của Ubuntu desktop
   <img src="https://user-images.githubusercontent.com/79830542/161735928-5a0dd6be-cc93-4fbf-8fac-471342eecac3.png" />
     
+    
