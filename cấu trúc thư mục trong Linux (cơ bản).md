@@ -52,7 +52,6 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
   
   Các file trong /root của CentOS 7
   <img src="https://user-images.githubusercontent.com/79830542/161697872-151b53da-27d8-431a-9cd9-318f39299c47.png" />
- 
   - cshrc: 
   - tcshrc: 
     
