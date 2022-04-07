@@ -1,5 +1,10 @@
 # Mục lục
 
+ - [I. CentOS: Minimal vs DVD](https://github.com/Phuc-gif051/markDown/blob/main/c%E1%BA%A5u%20tr%C3%BAc%20th%C6%B0%20m%E1%BB%A5c%20trong%20Linux%20(c%C6%A1%20b%E1%BA%A3n).md#i-centos-minimal-vs-dvd)
+ - [II. Cấu trúc thư mục trong Linux ( Cơ bản)](https://github.com/Phuc-gif051/markDown/blob/main/c%E1%BA%A5u%20tr%C3%BAc%20th%C6%B0%20m%E1%BB%A5c%20trong%20Linux%20(c%C6%A1%20b%E1%BA%A3n).md#ii-c%E1%BA%A5u-tr%C3%BAc-th%C6%B0-m%E1%BB%A5c-trong-linux--c%C6%A1-b%E1%BA%A3n)
+   - [1. Sơ lược](https://github.com/Phuc-gif051/markDown/blob/main/c%E1%BA%A5u%20tr%C3%BAc%20th%C6%B0%20m%E1%BB%A5c%20trong%20Linux%20(c%C6%A1%20b%E1%BA%A3n).md#1-s%C6%A1-l%C6%B0%E1%BB%A3c)
+   - [2. Thư mục "/root"](https://github.com/Phuc-gif051/markDown/blob/main/c%E1%BA%A5u%20tr%C3%BAc%20th%C6%B0%20m%E1%BB%A5c%20trong%20Linux%20(c%C6%A1%20b%E1%BA%A3n).md#2-th%C6%B0-m%E1%BB%A5c-root)
+
 # I. CentOS: Minimal vs DVD
 
 Bạn có thể lựa chọn tải về phiên bản đầy đủ (bản DVD với hơn 4GB) hoặc bản thu gọn (minimal với khoảng 1GB).
