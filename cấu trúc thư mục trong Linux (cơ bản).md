@@ -10,7 +10,7 @@
 Bạn có thể lựa chọn tải về phiên bản đầy đủ (bản DVD với hơn 4GB) hoặc bản thu gọn (minimal với khoảng 1GB).
 
  - Với bản DVD đầy đủ: sẽ có các lựa chọn GUI thì bạn có thể chọn KDE hoặc GNOME...Ngoài ra bạn có thể cài các service như DNS, FTP, SAMBA, Basic Web Server... 
-Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...Hiểu đơn giản thì bản DVD như này có đầy đủ các gói (như một [repo]() offline (bản ổn định nhất)) để cài một phiên bản CentOS nào đó khi bạn không có kết nối với internet. 
+Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...Hiểu đơn giản thì bản DVD như này có đầy đủ các gói (như một [repo](https://quantrimang.com/cach-cai-dat-phan-mem-va-ung-dung-cho-he-dieu-hanh-linux-92187#:~:text=%2D%20Tr%C3%AAn%20c%C3%A1c%20repository%20(g%E1%BB%8Di%20t%E1%BA%AFt,sau%20%C4%91%C3%B3%20c%C3%A0i%20l%C3%AAn%20m%C3%A1y.) offline (bản ổn định nhất)) để cài một phiên bản CentOS nào đó khi bạn không có kết nối với internet. 
 Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống bị lỗi.
  - Với bản Minimal thì chỉ có hệ điều hành CentOS, người dùng giao tiếp với với hệ điều hành bằng CLI (Command Line Interface). Bất kỳ gói cài thêm nào sẽ cần kết nối đến 1 mirror (thường là gần nhất).
 # II. Cấu trúc thư mục trong Linux ( Cơ bản)
@@ -67,12 +67,14 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
     
 # III. Tài liệu tham khảo
  
- 1. [So sánh Flathub và Snap Store, trang web tải ứng dụng Linux nào tốt hơn?](https://quantrimang.com/so-sanh-flathub-va-snap-store-166089#:~:text=Snap%20l%C3%A0%20m%E1%BB%99t%20%C4%91%E1%BB%8Bnh%20d%E1%BA%A1ng,k%E1%BB%B3%20ph%C3%B9%20h%E1%BB%A3p%20v%E1%BB%9Bi%20Ubuntu.)
+ 1.[Phần mềm trên Linux được phân phối như thế nào?](https://quantrimang.com/cach-cai-dat-phan-mem-va-ung-dung-cho-he-dieu-hanh-linux-92187#:~:text=%2D%20Tr%C3%AAn%20c%C3%A1c%20repository%20(g%E1%BB%8Di%20t%E1%BA%AFt,sau%20%C4%91%C3%B3%20c%C3%A0i%20l%C3%AAn%20m%C3%A1y.)
  
- 2. ["Bash" trong Linux nghĩa là gì?](https://quantrimang.com/bash-co-nghia-la-gi-trong-linux-178165)
+ 2. [So sánh Flathub và Snap Store, trang web tải ứng dụng Linux nào tốt hơn?](https://quantrimang.com/so-sanh-flathub-va-snap-store-166089#:~:text=Snap%20l%C3%A0%20m%E1%BB%99t%20%C4%91%E1%BB%8Bnh%20d%E1%BA%A1ng,k%E1%BB%B3%20ph%C3%B9%20h%E1%BB%A3p%20v%E1%BB%9Bi%20Ubuntu.)
  
- 3. [Linux Shell là gì? Các Linux Shell phổ biến nhất](https://quantrimang.com/linux-shell-la-gi-cac-linux-shell-pho-bien-nhat-174496)
+ 3. ["Bash" trong Linux nghĩa là gì?](https://quantrimang.com/bash-co-nghia-la-gi-trong-linux-178165)
  
- 4. [Snap là gì?](https://viblo.asia/p/snap-cai-dat-moi-thu-voi-terminal-Eb85ox3WK2G)
+ 4. [Linux Shell là gì? Các Linux Shell phổ biến nhất](https://quantrimang.com/linux-shell-la-gi-cac-linux-shell-pho-bien-nhat-174496)
  
- 5. [Cấu trúc thư mục trong Linux (cơ bản)](https://wiki.matbao.net/kb/co-ban-cau-truc-thu-muc-trong-linux/)
+ 5. [Snap là gì?](https://viblo.asia/p/snap-cai-dat-moi-thu-voi-terminal-Eb85ox3WK2G)
+ 
+ 6. [Cấu trúc thư mục trong Linux (cơ bản)](https://wiki.matbao.net/kb/co-ban-cau-truc-thu-muc-trong-linux/)
