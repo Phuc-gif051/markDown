@@ -47,11 +47,14 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
  - Lưu các dữ liệu của Bash như: .bash_history, .bashrc,...
   **Bash**: như là 1 ứng dụng thông dịch cho người dùng tương tác với hệ điều hành qua các câu lệnh. Hay Bash là 1 [shell](https://quantrimang.com/linux-shell-la-gi-cac-linux-shell-pho-bien-nhat-174496) (trình thông dịch) phổ biến nhất trên Linux, được cài sẵn trên CentOS, Ubuntu desktop, Ubuntu Server,...Để xem các shell được cài sẵn trong Linux ta dùng cat/etc/shells
  - Trên Ubuntu (cả Server và Desktop) đều có mục [Snap](https://quantrimang.com/so-sanh-flathub-va-snap-store-166089#:~:text=Snap%20l%C3%A0%20m%E1%BB%99t%20%C4%91%E1%BB%8Bnh%20d%E1%BA%A1ng,k%E1%BB%B3%20ph%C3%B9%20h%E1%BB%A3p%20v%E1%BB%9Bi%20Ubuntu.). Snap là một định dạng file đến từ Canonical, công ty tạo ra phân phối Linux Ubuntu. Về cơ bản nó như 1 cửa hàng ứng dụng được cài sẵn, ta có thể tìm kiếm (snap find <tên ứng dung>), cài đặt (sudo snap install <package>), xem danh sách ứng dụng đã cài đặt (snap list), xoá (sudo snap remove <package>), cập nhật (sudo snap refresh --list)
-  
+ - anaconda-ks.cfg:  
 
   
   Các file trong /root của CentOS 7
   <img src="https://user-images.githubusercontent.com/79830542/161697872-151b53da-27d8-431a-9cd9-318f39299c47.png" />
+ 
+  - cshrc: 
+  - tcshrc: 
     
    Các file trong /root của Ubuntu server
   <img src="https://user-images.githubusercontent.com/79830542/161698210-5a5888db-4e31-4c02-ab69-0f759578956e.PNG" />
