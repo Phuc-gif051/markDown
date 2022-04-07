@@ -5,7 +5,7 @@
 Bạn có thể lựa chọn tải về phiên bản đầy đủ (bản DVD với hơn 4GB) hoặc bản thu gọn (minimal với khoảng 1GB).
 
  - Với bản DVD đầy đủ: sẽ có các lựa chọn GUI thì bạn có thể chọn KDE hoặc GNOME...Ngoài ra bạn có thể cài các service như DNS, FTP, SAMBA, Basic Web Server... 
-Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...Hiểu đơn giản thì bản DVD như này có đầy đủ các [repo]()(bản ổn định nhất) để cài bất kỳ một phiên bản CentOS nào khi bạn không có kết nối với internet. 
+Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...Hiểu đơn giản thì bản DVD như này có đầy đủ các gói (như một [repo]() offline (bản ổn định nhất)) để cài một phiên bản CentOS nào đó khi bạn không có kết nối với internet. 
 Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống bị lỗi.
  - Với bản Minimal thì chỉ có hệ điều hành CentOS, người dùng giao tiếp với với hệ điều hành bằng CLI (Command Line Interface). Bất kỳ gói cài thêm nào sẽ cần kết nối đến 1 mirror (thường là gần nhất).
 # II. Cấu trúc thư mục trong Linux ( Cơ bản)
@@ -15,9 +15,9 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
 <img src="https://user-images.githubusercontent.com/79830542/161430250-adb61028-7303-44c0-b181-12523d5b47c0.png"  witdth="850"/>
 
  - /: nút gốc hay thư mục gốc (root) đây là nơi bắt đầu của tất cả các file và thư mục. Chỉ có root user mới có quyền ghi trong thư mục này. Chú ý rằng /root là thư mục home của root (là 1 trong các thư mục con của /) user chứ không phải là /.
- - /bin: Thư mục này chứa các chương trình thực thi, hay hiểu đơn giản nó là chương trình dành cho người dùng. Các chương trình chung của Linux được sử dụng bởi tất cả người dùng được lưu ở đây. Ví dụ như: ls (list), rm(remove), ping...
+ - /bin: Thư mục này chứa các chương trình thực thi, hay hiểu đơn giản nó là chương trình dành cho người dùng. Các chương trình chung của Linux được sử dụng bởi tất cả người dùng được lưu ở đây. Ví dụ như: whoami, mkdir, ls (list), rm(remove), ping...
  - /sbinn: Cũng giống như /bin, /sbinn cũng chứa các chương trình thực thi, nhưng chúng là những chương trình của admin chạy với quyền root user, dành cho việc bảo trì hệ thống. Ví dụ như: reboot, poweroff, iptables...
- - /etc: Thư mục này chứa các file cấu hình của các chương trình, đồng thời nó còn chứa các shell script dùng để khởi động hoặc tắt các chương trình khác. Ví dụ: /etc/resolv.conf, /etc/logrolate.conf
+ - /etc: Thư mục này chứa các file cấu hình của các chương trình, đồng thời nó còn chứa các shell script dùng để khởi động hoặc tắt các chương trình khác. Ví dụ: etc/shells, /etc/resolv.conf, /etc/logrolate.conf
  - /dev: Các phân vùng ổ cứng, thiết bị ngoại vi như USB, ổ đĩa cắm ngoài, hay bất cứ thiết bị nào gắn kèm vào hệ thống đều được lưu ở đây. Ví dụ: sdb1 là tên của USB bạn vừa cắm vào máy, để mở được USB này bạn cần sử dụng lệnh mount với quyền root: # mount /dev/sdb1 (với /dev/sdb1 là đường dẫn 
  - /tmp: giống với Window, đây là nơi chứa các file tạm do người dùng và hệ thống tạo ra. Thường sẽ được xoá khi hệ thống khởi động lại
  - /proc: nơi lưu trữ thông tin về các tiến trình đang của hệ thống ở dạng file thư mục mô phỏng. Ví dụ thư mục con /proc/{pid} chứa các thông tin về tiến trình có ID là pid (pid ~ process ID). Ngoài ra đây cũng là nơi lưu thông tin về về các tài nguyên đang sử dụng của hệ thống như: /proc/version, /proc/uptime...
@@ -38,9 +38,11 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
 ## 2. Thư mục "/root"
 
 Đây là nơi lưu trữ dữ liệu cùa người quản trị (root) với các thông tin cơ bản được lưu trữ trong như:
- - Thư mục 01:
- - Thư mục 02:
- - Thư mục 03:
+
+ - Lưu các dữ liệu của Bash như: .bash_history, .bashrc,...
+  **Bash**: như là 1 ứng dụng thông dịch cho người dùng tương tác với hệ điều hành qua các câu lệnh. Hay Bash là 1 [shell](https://quantrimang.com/linux-shell-la-gi-cac-linux-shell-pho-bien-nhat-174496) (trình thông dịch) phổ biến nhất trên Linux, được cài sẵn trên CentOS, Ubuntu desktop, Ubuntu Server,...Để xem các shell được cài sẵn trong Linux ta dùng cat/etc/shells
+ - Trên Ubuntu (cả Server và Desktop) đều có mục [Snap](https://quantrimang.com/so-sanh-flathub-va-snap-store-166089#:~:text=Snap%20l%C3%A0%20m%E1%BB%99t%20%C4%91%E1%BB%8Bnh%20d%E1%BA%A1ng,k%E1%BB%B3%20ph%C3%B9%20h%E1%BB%A3p%20v%E1%BB%9Bi%20Ubuntu.). Snap là một định dạng file đến từ Canonical, công ty tạo ra phân phối Linux Ubuntu. Về cơ bản nó như 1 cửa hàng ứng dụng được cài sẵn, ta có thể tìm kiếm (snap find <tên ứng dung>), cài đặt (sudo snap install <package>), xem danh sách ứng dụng đã cài đặt (snap list), xoá (sudo snap remove <package>), cập nhật (sudo snap refresh --list)
+  
 
   
   Các file trong /root của CentOS 7
@@ -48,8 +50,22 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
     
    Các file trong /root của Ubuntu server
   <img src="https://user-images.githubusercontent.com/79830542/161698210-5a5888db-4e31-4c02-ab69-0f759578956e.PNG" />
-   
+ 
+   - Thư mục .ssh: lưu trữ các key shh đã được cài đặt
+ 
+ 
    Các file trong /root của Ubuntu desktop
   <img src="https://user-images.githubusercontent.com/79830542/161735928-5a0dd6be-cc93-4fbf-8fac-471342eecac3.png" />
+   - Thư mục .cacha: lưu giữ liệu tạm thời
     
-    
+# III. Tài liệu tham khảo
+ 
+ 1. [So sánh Flathub và Snap Store, trang web tải ứng dụng Linux nào tốt hơn?](https://quantrimang.com/so-sanh-flathub-va-snap-store-166089#:~:text=Snap%20l%C3%A0%20m%E1%BB%99t%20%C4%91%E1%BB%8Bnh%20d%E1%BA%A1ng,k%E1%BB%B3%20ph%C3%B9%20h%E1%BB%A3p%20v%E1%BB%9Bi%20Ubuntu.)
+ 
+ 2. ["Bash" trong Linux nghĩa là gì?](https://quantrimang.com/bash-co-nghia-la-gi-trong-linux-178165)
+ 
+ 3. [Linux Shell là gì? Các Linux Shell phổ biến nhất](https://quantrimang.com/linux-shell-la-gi-cac-linux-shell-pho-bien-nhat-174496)
+ 
+ 4. [Snap là gì?](https://viblo.asia/p/snap-cai-dat-moi-thu-voi-terminal-Eb85ox3WK2G)
+ 
+ 5. [Cấu trúc thư mục trong Linux (cơ bản)](https://wiki.matbao.net/kb/co-ban-cau-truc-thu-muc-trong-linux/)
