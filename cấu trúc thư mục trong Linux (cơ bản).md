@@ -67,7 +67,8 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
     
 # III. Tài liệu tham khảo
  
- 1.[Phần mềm trên Linux được phân phối như thế nào?](https://quantrimang.com/cach-cai-dat-phan-mem-va-ung-dung-cho-he-dieu-hanh-linux-92187#:~:text=%2D%20Tr%C3%AAn%20c%C3%A1c%20repository%20(g%E1%BB%8Di%20t%E1%BA%AFt,sau%20%C4%91%C3%B3%20c%C3%A0i%20l%C3%AAn%20m%C3%A1y.)
+ 
+ 1. [Phần mềm trên Linux được phân phối như thế nào?](https://quantrimang.com/cach-cai-dat-phan-mem-va-ung-dung-cho-he-dieu-hanh-linux-92187#:~:text=%2D%20Tr%C3%AAn%20c%C3%A1c%20repository%20g%E1%BB%8Di%20t%E1%BA%AFt,sau%20%C4%91%C3%B3%20c%C3%A0i%20l%C3%AAn%20m%C3%A1y.)
  
  2. [So sánh Flathub và Snap Store, trang web tải ứng dụng Linux nào tốt hơn?](https://quantrimang.com/so-sanh-flathub-va-snap-store-166089#:~:text=Snap%20l%C3%A0%20m%E1%BB%99t%20%C4%91%E1%BB%8Bnh%20d%E1%BA%A1ng,k%E1%BB%B3%20ph%C3%B9%20h%E1%BB%A3p%20v%E1%BB%9Bi%20Ubuntu.)
  
