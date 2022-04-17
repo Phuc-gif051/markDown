@@ -10,6 +10,12 @@
    - [1. Máy chủ là gì?](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#1-m%C3%A1y-ch%E1%BB%A7-l%C3%A0-g%C3%AC)
    - [2. Các loại máy chủ chính](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#2-c%C3%A1c-lo%E1%BA%A1i-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
    - [3. Các thành phần của máy chủ](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#2-c%C3%A1c-lo%E1%BA%A1i-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
+   - [4. RAID (Redundant Arrays of Inexpensive Disks)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#4-raid-redundant-arrays-of-inexpensive-disks)
+     - [4.1 RAID 0](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#41-raid-0)
+     - [4.2 RAID 1](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#42-raid-1)
+     - [4.3 RAID 5](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#43-raid-5)
+     - [4.4 RAID 10](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#44-raid-10-hay-10)
+     - [4.5 Một số chi tiết cần lưu ý](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#45-m%E1%BB%99t-s%E1%BB%91-chi-ti%E1%BA%BFt-c%E1%BA%A7n-l%C6%B0u-%C3%BD) 
  - [III. Tài liệu tham khảo](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#iii-t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o)
  
 # I. Máy tính là gì? Các thành phần cơ bản của máy tính
@@ -195,18 +201,19 @@ RAID 1 mới là phiên bản thực sự đầu tiên. RAID 1 cung cấp phươ
 <img src="https://user-images.githubusercontent.com/79830542/163545958-fc7fc655-2664-4d14-8c63-500b066908b1.png" width="500" />
 
  - Ưu điểm: an toàn về bảo vệ dữ liệu, khi 1 ổ hỏng thì vẫn còn 1 ổ với tương đương dữ liệu (n-1 ổ cứng mà bạn có).
- - Nhược điểm: Hiệu suất không cao, Nâng cao chi phí (giả sử bạn sử dụng 2 ổ cứng 50 GiB. Khi sử dụng Raid 1 thì dung lượng lưu trữ có thể sử dụng chỉ được 50 GiB ((2-1)x50)) ).
+ - Nhược điểm: Hiệu suất không cao, Nâng cao chi phí (giả sử bạn sử dụng 2 ổ cứng 50 GiB. Khi sử dụng Raid 1 thì dung lượng lưu trữ có thể sử dụng chỉ được 50 GiB ((2-1)x50)) ). Đặc biệt là khi ổ cứng đang sử dụng bị hỏng thì hệ thống không tự động chuyển sang ổ cứng dự phòng.
  
 ### 4.3 RAID 5
 
 Nguyên tắc cơ bản của Raid 5 cũng gần giống với 2 loại raid lưu trữ truyền thống là Raid 1 và Raid 0. Tức là cũng có tách ra lưu trữ các ổ cứng riêng biệt và vẫn có phương án dự phòng khi có sự cố phát sinh đối với 1 ổ cứng bất kì trong cụm.
 
-Để triển khai RAID 5 sẽ cần tối thiểu 3 ổ cứng. Với minh hoạ ở dưới thì ta có 4 ổ cứng, 1 file khi dùng RAID 5 để lưu trữ sẽ được chia nhỏ thành 3 phần, và ổ thứ 4 sẽ dùng để lưu bản sao của file đó. Tương tự, các file sau cũng vậy và tùy theo tiến trình thực hiện mà bản sao lưu có thể được lưu ở bất kì 1 trong những ổ trong cụm RAID.
+Để triển khai RAID 5 sẽ cần tối thiểu 3 ổ cứng. Với minh hoạ ở dưới thì ta có 4 ổ cứng, 1 file khi dùng RAID 5 để lưu trữ sẽ được chia nhỏ thành 3 phần, và ổ thứ 4 sẽ dùng để lưu bản sao của file đó. Tương tự, các file sau cũng vậy và tùy theo tiến trình thực hiện mà bản sao lưu có thể được lưu ở 1 trong những ổ trong cụm RAID theo quy tắc chẵn lẻ (parity)
 
 <img src="https://user-images.githubusercontent.com/79830542/163548466-603386df-2086-4b05-99de-68ac213c40be.png" width="500" />
 
- - Ưu điểm: vừa tối ưu hoá đọc/ghi dữ liệu, vừa đảm bảo tính an toàn của dữ liệu (1 thậm chí 2 ổ trong cụm hỏng hóc thì vẫn còn bản sao trong các ổ khác)
- - Nhược điểm: Chi phí phát sinh thêm 1 ổ so với hình thức lưu trữ thông thường. (tổng dung lượng ổ cứng sau cùng sẽ bằng tổng dung lượng đĩa sử dụng trừ đi 1 ổ. Giả sử bạn có 4 ổ 50 GiB thì dung lượng sử dụng sau cùng khi triển khai Raid 5 bạn chỉ còn 150 GiB ((n-1)x50).
+ - Ưu điểm: vừa tối ưu hoá đọc dữ liệu, vừa đảm bảo tính an toàn của dữ liệu (1 thậm chí 2 ổ trong cụm hỏng hóc thì vẫn còn bản sao trong các ổ khác)
+ - Nhược điểm: Ghi dữ liệu bị chậm vì phải tính toán thêm quy tắc chẵn lẻ (parity). Chi phí phát sinh thêm 1 ổ so với hình thức lưu trữ thông thường. (tổng dung lượng ổ cứng sau cùng sẽ bằng tổng dung lượng đĩa sử dụng trừ đi 1 ổ. Giả sử bạn có 4 ổ 50 GiB thì dung lượng sử dụng sau cùng khi triển khai Raid 5 bạn chỉ còn 150 GiB ((n-1)x50).
+ 
  
 ### 4.4 RAID 10 hay 1+0
 
@@ -233,7 +240,7 @@ Có 1 biến thể khác của RAID 1+0 đó chính là 0+1. Cũng tối thiểu
  - Nên lựa chọn ổ cứng của cùng một nhà sản xuất, cùng một seri, cùng một dung lượng để có hiệu quả tốt nhất khi dùng RAID.
  - Nếu không có khả năng đầu tư ngay thì bạn nên chắc chắn rằng những ổ cứng mà bạn định triển khai RAID đáp ứng những yêu cầu trên. Tối thiểu là cùng một dung lượng lưu trữ, vì RAID sẽ lấy mẫu số chung là dung lượng của của ổ cứng có dung lượng thấp nhất. Ví dụ như khi bạn có 2 ổ cứng lần lợt là 120 GiB và 60 GiB, thì sau khi triển khai RAID 0 thì dung lượng khả dụng chỉ là 120 GiB.
  - 
-**RAID 0 và RAID 1 được sử dụng nhiều nhất vì nó phù hợp với người dùng cá nhân và các server vừa và nhỏ, còn RAID 5 hay RAID 10 thì chi phí đầu tư quá đắt đỏ**
+**RAID 0 và RAID 1 được sử dụng nhiều nhất vì nó phù hợp với người dùng cá nhân và các server vừa và nhỏ, còn RAID 5 hay RAID 10 thì chi phí đầu tư ban quá đắt đỏ**
 
 # III. Tài liệu tham khảo
 
