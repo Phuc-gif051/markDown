@@ -1,22 +1,23 @@
 # Mục lục
- - [I. Máy tính là gì? Các thành phần cơ bản của máy tính](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#i-m%C3%A1y-t%C3%ADnh-l%C3%A0-g%C3%AC-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%C6%A1-b%E1%BA%A3n-c%E1%BB%A7a-m%C3%A1y-t%C3%ADnh)
-   - [1. CPU (Bộ xử lý trung tâm)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#1-cpu-b%E1%BB%99-x%E1%BB%AD-l%C3%BD-trung-t%C3%A2m)
-   - [2.RAM (Bộ nhớ truy cập ngẫu nhiên)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#2ram-b%E1%BB%99-nh%E1%BB%9B-truy-c%E1%BA%ADp-ng%E1%BA%ABu-nhi%C3%AAn)
-   - [3. Ổ cứng (HDD hoặc SSD)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#3-%E1%BB%95-c%E1%BB%A9ng-hdd-ho%E1%BA%B7c-ssd)
-   - [4. Mainboard (Bo mạch chủ)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#4-mainboard-bo-m%E1%BA%A1ch-ch%E1%BB%A7)
-   - [5. Bộ xử lý đồ họa (GPU)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#5-b%E1%BB%99-x%E1%BB%AD-l%C3%BD-%C4%91%E1%BB%93-h%E1%BB%8Da-gpu)
-   - [6. Bộ nguồn (Power Supply hay PSU)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#6-b%E1%BB%99-ngu%E1%BB%93n-power-supply-hay-psu)
- - [II. Máy chủ (cơ bản)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#ii-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
-   - [1. Máy chủ là gì?](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#1-m%C3%A1y-ch%E1%BB%A7-l%C3%A0-g%C3%AC)
-   - [2. Các loại máy chủ chính](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#2-c%C3%A1c-lo%E1%BA%A1i-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
-   - [3. Các thành phần của máy chủ](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#2-c%C3%A1c-lo%E1%BA%A1i-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
-   - [4. RAID (Redundant Arrays of Inexpensive Disks)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#4-raid-redundant-arrays-of-inexpensive-disks)
-     - [4.1 RAID 0](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#41-raid-0)
-     - [4.2 RAID 1](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#42-raid-1)
-     - [4.3 RAID 5](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#43-raid-5)
-     - [4.4 RAID 10](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#44-raid-10-hay-10)
-     - [4.5 Một số chi tiết cần lưu ý](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#45-m%E1%BB%99t-s%E1%BB%91-chi-ti%E1%BA%BFt-c%E1%BA%A7n-l%C6%B0u-%C3%BD) 
- - [III. Tài liệu tham khảo](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh%20l%C3%A0%20g%C3%AC.md#iii-t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o)
+ - [I. Máy tính là gì? Các thành phần cơ bản của máy tính](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#i-m%C3%A1y-t%C3%ADnh-l%C3%A0-g%C3%AC-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%C6%A1-b%E1%BA%A3n-c%E1%BB%A7a-m%C3%A1y-t%C3%ADnh)
+   - [1. CPU (Bộ xử lý trung tâm)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#1-cpu-b%E1%BB%99-x%E1%BB%AD-l%C3%BD-trung-t%C3%A2m)
+   - [2.RAM (Bộ nhớ truy cập ngẫu nhiên)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#2ram-b%E1%BB%99-nh%E1%BB%9B-truy-c%E1%BA%ADp-ng%E1%BA%ABu-nhi%C3%AAn)
+   - [3. Ổ cứng (HDD hoặc SSD)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#3-%E1%BB%95-c%E1%BB%A9ng-hdd-ho%E1%BA%B7c-ssd)
+   - [4. Mainboard (Bo mạch chủ)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#4-mainboard-bo-m%E1%BA%A1ch-ch%E1%BB%A7)
+   - [5. Bộ xử lý đồ họa (GPU)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#5-b%E1%BB%99-x%E1%BB%AD-l%C3%BD-%C4%91%E1%BB%93-h%E1%BB%8Da-gpu)
+   - [6. Bộ nguồn (Power Supply hay PSU)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#6-b%E1%BB%99-ngu%E1%BB%93n-power-supply-hay-psu)
+   - [7. Card mạng](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#7-card-m%E1%BA%A1ng)
+ - [II. Máy chủ (cơ bản)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#ii-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
+   - [1. Máy chủ là gì?](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#1-m%C3%A1y-ch%E1%BB%A7-l%C3%A0-g%C3%AC)
+   - [2. Các loại máy cơ bản](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#2-c%C3%A1c-lo%E1%BA%A1i-m%C3%A1y-ch%E1%BB%A7-c%C6%A1-b%E1%BA%A3n)
+   - [3. Các thành phần của máy chủ](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#3-c%C3%A1c-th%C3%A0nh-ph%E1%BA%A7n-c%C6%A1-b%E1%BA%A3n-c%E1%BB%A7a-m%C3%A1y-ch%E1%BB%A7)
+   - [4. RAID (Redundant Arrays of Inexpensive Disks)](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#4-raid-redundant-arrays-of-inexpensive-disks)
+     - [4.1 RAID 0](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#41-raid-0)
+     - [4.2 RAID 1](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#42-raid-1)
+     - [4.3 RAID 5](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#43-raid-5)
+     - [4.4 RAID 10](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#44-raid-10-hay-10)
+     - [4.5 Một số chi tiết cần lưu ý](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#45-m%E1%BB%99t-s%E1%BB%91-chi-ti%E1%BA%BFt-c%E1%BA%A7n-l%C6%B0u-%C3%BD) 
+ - [III. Tài liệu tham khảo](https://github.com/Phuc-gif051/markDown/blob/main/m%C3%A1y%20t%C3%ADnh,m%C3%A1y%20ch%E1%BB%A7%20v%C3%A0%20raid%20c%C6%A1%20b%E1%BA%A3n.md#iii-t%C3%A0i-li%E1%BB%87u-tham-kh%E1%BA%A3o)
  
 # I. Máy tính là gì? Các thành phần cơ bản của máy tính
 
@@ -170,6 +171,8 @@ Căn cứ theo phương pháp tạo ra máy chủ, người ta phân thành ba l
 
  - Mainboard server: Hay còn gọi là main server chính là mạch điện chính, trung tâm của một hệ. Nhiệm vụ của nó kết nối và truyền dẫn giữa các thiết bị khác nhau trong máy. Nó bao gồm các khe sockets cho phép gắn thêm các bo mạch phụ và các kênh truyền dữ liệu , các bộ xử lý , các khe chứa bộ nhớ,... Các bộ phận cấu thành nên server sẽ được gắn trên Mainboard này.
 <img src="https://user-images.githubusercontent.com/79830542/163424753-95c52704-10f9-42d5-a2b3-30ec028352d7.png" width="500"/>
+
+ - Card mạng: cũng tương tự như trên máy tính thông dụng, card mạng trên server để server có thể kết nối tới Internet hoặc mạng nội bộ.
 
  - Chassis server: Không phải thành phần quá quan trọng, nhưng không thể nói là không cần thiết. Chassis server là thùng server có chức năng bảo vệ các thiết bị phần cứng bên trong máy. Nếu so sánh với các máy tính cá nhân thông thường, thì Chassis server chính là Case. Chassis máy chủ có dạng nằm ngang là Rack Mount, dạng đứng hay dạng tháp là Tower server. Còn có 1 dạng Blade server: sắp xếp dày đặc các máy chủ, dễ dàng quản lý, bảo trì,... Chi tiết về [Blade server](https://fptcloud.com/blade-server/)
 
