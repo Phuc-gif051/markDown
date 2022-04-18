@@ -39,6 +39,7 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
  - /mnt: Đây là thư mục tạm để người quản trị có thể mount các file hệ thống. Ví dụ như # mount /dev/sda2 /mnt
  - /media: Thư mục tạm này chứa các muont tạm thời thiết bị như Cd-Rom: /media/cdrom. floppy: /media/floopy (các thiết bị gắn ngoài có thể gỡ bỏ) hay các bộ phận đọc ghi ổ đĩa cứng (đĩa CD, DVD,...) /media/cdrecord (hiểu như là ổ D:/Data trong Windows)
  - /srv: Chứa dữ liệu liên quan đến các dịch vụ máy chủ như /srv/cvs, chứa các dữ liệu liên quan đến CVS.
+ - /run: Thư mục mới được phát triển, được khởi tạo khi hệ thống được khởi động ghi ID của một số tiến trình đặc biệt. Đây được đánh dấu như một tệp tạm thời, lưu lại: các dữ liệu được dùng trong thời gian chạy, các tiến trình đang chạy hiện tại.
 
 ## 2. Thư mục "/root"
 
