@@ -244,8 +244,21 @@ Có 1 biến thể khác của RAID 1+0 đó chính là 0+1. Cũng tối thiểu
  - Nên lựa chọn ổ cứng của cùng một nhà sản xuất, cùng một seri, cùng một dung lượng để có hiệu quả tốt nhất khi dùng RAID.
  - Nếu không có khả năng đầu tư ngay thì bạn nên chắc chắn rằng những ổ cứng mà bạn định triển khai RAID đáp ứng những yêu cầu trên. Tối thiểu là cùng một dung lượng lưu trữ, vì RAID sẽ lấy mẫu số chung là dung lượng của của ổ cứng có dung lượng thấp nhất. Ví dụ như khi bạn có 2 ổ cứng lần lợt là 120 GiB và 60 GiB, thì sau khi triển khai RAID 0 thì dung lượng khả dụng chỉ là 120 GiB.
  - 
-**RAID 0 và RAID 1 được sử dụng nhiều nhất vì nó phù hợp với người dùng cá nhân và các server vừa và nhỏ, còn RAID 5 hay RAID 10 thì chi phí đầu tư ban quá đắt đỏ**
+*RAID 0 và RAID 1 được sử dụng nhiều nhất vì nó phù hợp với người dùng cá nhân và các server vừa và nhỏ, còn RAID 5 hay RAID 10 thì chi phí đầu tư ban quá đắt đỏ
 
+**non-RAID**
+  - Trạng thái mà server không sử dụng công nghệ RAID để quản lý ổ cứng. Điều này khá là nguy hiểm vì dữ liệu không được bảo vệ trước các nguy cơ hỏng hóc phần cứng hay gây lãng phí tài nguyên khi có thể đọc/ghi dữ liệu nhanh hơn mà không sử dụng.  
+  - Trên Linux để kiểm tra xem hệ thống có đang sử dụng RAID hay không ta sử dụng câu lệnh `cat /etc/mdamd.conf` hoặc `cat /proc/mdstat` (Thường sử dụng lệnh thứ 2 vì ta sẽ xem được chi tiết hơn). Kết quả như hình dưới:
+ 
+<img src="https://user-images.githubusercontent.com/79830542/163747556-b6ba0abf-e35a-41e1-b9a1-3150835bfd48.png" width="500"/>
+
+  - md125: tên cụm RAID
+  - active raid10: công nghệ RAID được sử dụng, ở đây là RAID 10.
+  - sde3[3] sdb3[2] sdc3[1] sdd3[4] sda3[0]: các ổ thành phần trong cụm RAID md125
+  - [UUUUU]: trạng thái các ổ cứng, mỗi U tương ứng với 1 ổ, với U nghĩa là ổ hoạt động bình thường, với _ nghĩa là ổ hỏng hoặc đã chết.
+  
+  *Xem chi tiết hơn [tại đây](https://www.cyberciti.biz/faq/how-to-check-raid-configuration-in-linux/)
+  
 # III. Tài liệu tham khảo
 
 [1. Thành phần cơ bản của máy tính](https://tino.org/vi/thanh-phan-co-ban-cua-may-tinh/)
