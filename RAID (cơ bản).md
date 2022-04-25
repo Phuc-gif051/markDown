@@ -53,11 +53,11 @@ _Lưu ý_: Nên sử dụng ổ cứng cùng 1 công ty, cùng 1 seri khi có ý
 
 <img src="https://user-images.githubusercontent.com/79830542/165015371-674578a1-884d-40d4-8da0-78da576e668c.png" width="800">
 
-  - Tiến hành xác nhận câu lệnh trên. Đầu tiên, lấy ID (thường là trường RAID.Integrated.1-1). Để chắc chắn ta sử dụng lệnh `storage get controllers -o -p RealtimeConfigurationCapability` để tiến hành lấy ID các lệnh đang đợi
+  - Tiến hành xác nhận câu lệnh trên. Đầu tiên, ta phải kiểm tra xem bộ điều khiển có hỗ trợ kiểu RAID đang áp dụng trên ổ cứng hay không. Để kiểm tra ta sử dụng lệnh `storage get controllers -o -p RealtimeConfigurationCapability`.
 
 <img src="https://user-images.githubusercontent.com/79830542/165015984-5fb9b5a0-bac0-4b95-a2bd-83165c83d421.png" width="800">
 
-  - Sau khi có ID, ta xác nhận thực hiện câu lệnh với hệ thống bằng lệnh `jobqueue create RAID.Integrated.1-1 -s TIME_NOW --realtime`
+  - Sau khi xác nhận thực hiện câu lệnh với hệ thống bằng lệnh `jobqueue create RAID.Integrated.1-1 -s TIME_NOW --realtime`
   - -s: sau bao lâu thì tiến hành reboot để áp dụng câu lệnh, thường tính bằng giây (ở đây là thực hành nên server có thể reboot ngay, để TIME_NOW)
   - --realtime: trong thời gian thực của hệ thống
 
