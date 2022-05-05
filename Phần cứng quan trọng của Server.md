@@ -71,9 +71,11 @@ CPU sẽ tối ưu hóa được hệ thống đường dẫn để gửi thông
 
 | Nội dung | Định nghĩa | Cách hoạt động |
 |:---:|:---:|:---:|
-| RAM Registered | hay còn gọi là ECC RDIMM là bộ nhớ có chứa các thanh ghi | các lệnh truy xuất được gửi đến thanh ghi trước rồi mới chuyển tới mô-đun bộ nhớ, chờ xử lý. |
+| RAM Registered (đây là dòng tiêu biểu và phổ biến nhất hiện nay) | hay còn gọi là ECC RDIMM là bộ nhớ có chứa các thanh ghi | các lệnh truy xuất được gửi đến thanh ghi trước rồi mới chuyển tới mô-đun bộ nhớ, chờ xử lý. |
 | RAM Fully Buffered | Hay còn được gọi là FB-DIMM là một công nghệ sản xuất ram với mục tiêu đặt ra là để phục vụ phát triển cho server bằng cách gia tăng tốc độ tối đa dựa trên công nghệ ram server (DIMM-ECC) cũ và tăng tối đa sự ổn định, độ tương thích | Loại RAM này về bản chất là một phiên bản cũ hơn của RAM Registered. Mặt hạn chế của FB-DIMM là chạy nóng hơn so với thanh ram DDR2 thông thường. |
 | RAM Load Reduced | RAM Load Reduced (LRDIMM) là một phiên bản mới hơn của RAM buffered. | Lợi thế của các mô-đun Load Reduced đôi khi sẽ không cho phép tất cả các khe DIMM được lấp đầy với các mô-đun bộ nhớ bậc bốn. Ngoài ra, nó cũng sẽ giải quyết một số vấn đề về hiệu suất và sức mạnh mà RAM FB-DIMM gây ra trong quá trình chuyển đổi tín hiệu từ nối tiếp sang song song. |
+ 
+<img src="https://user-images.githubusercontent.com/79830542/166854428-a1639ac4-bfec-4dae-864e-5ac2e2d11ef4.png" width=800>
 
 **Lưu ý:** Các loại RAM FB-DIMM và LRDIMM được thiết kế theo những cách hơi khác so với RAM RDIMM và sẽ không thể hoán đổi được cho nhau trên tất cả các bo mạch.
 
@@ -86,11 +88,65 @@ các thiết bị này được thiết kế trên bo mạch chủ. Ram ECC UDIM
 Trong các hệ thống sử dụng RAM không có bộ đệm (unbuffered RAM), CPU sẽ liên lạc trực tiếp với các chip bộ nhớ riêng lẻ, 
 do đó gửi thông tin sẽ được xử lý tới từng chip trên thanh RAM. Mặc dù điều này cho phép hệ thống có thể mở rộng hơn một chút cũng như linh hoạt hơn một chút, nhưng nó cũng đòi hỏi CPU phải có sức mạnh xử lý tốt hơn, và do đó, sẽ có ít không gian hơn để CPU thực hiện các tác vụ khác.
 
+<img src="https://user-images.githubusercontent.com/79830542/166854138-03b37d68-20a8-4448-98ce-4aeac40ed106.png" width=800>
+
+
 ***Để CPU và RAM hoạt động với nhau một cách tốt nhất để tối ưu hoá hiệu suất của hệ thống thì FSB (Front Side Bus) của CPU và bus của  RAM tối thiểu phải bằng nhau. Xem chi tiết hơn [tại đây.](https://quantrimang.com/ram-may-tinh-va-nhung-dieu-can-biet-7849)***
 
 <a name="3.Disks"></a>
 ## 3. Disk (ổ cứng) 🕹️
 
+### 3.1 Ổ cứng là gì?
+
+Ổ cứng là thiết bị phần cứng dùng để lưu trữ dữ liệu chính như: hệ điều hành, phần mềm và các tệp tin khác. Đầu cuối của ổ cứng chứa một cổng cho cap kết nối bo mạch. Cap sử dụng có thể là SATA hoặc PATA, phụ thuộc vào loại ổ đĩa. Hầu hết các ổ đĩa cứng đều có thiết lập jumper ở mặt sau để xác định cách bo mạch chủ nhận diện được ổ đĩa khi có nhiều hơn một ổ cứng.
+
+Ổ cứng sẽ hỗ trợ và thay đổi một số khả năng của máy như: tốc độ khởi động, chép dữ liệu và mức độ an toàn của dữ liệu.
+
+### 3.2 Có những loại ổ cứng server nào?
+
+**Ổ cứng server (Ổ cứng máy chủ) cũng như các máy tính thông thường có hai loại chính: HDD (Hard Disk Drive) và SSD (Solid State Drive).**
+
+💾 HDD (Hard Disk Drive): là một loại ổ cứng cho máy chủ giống như những máy tính thông thường. Tuy nhiên, do đặc thù của máy chủ đòi hỏi dung lương bộ nhớ lớn nên một server có thể gắn kèm nhiều HDD. Việc sở hữu một HDD server tốt sẽ đem lại cho người dùng rất nhiều lợi ích về: khả năng lưu trữ, tốc độ và khả năng truy xuất, bảo vệ dữ liệu. Ngoài ra, HDD có vai trò mật thiết trong việc gia tăng tuổi thọ cho máy chủ.
+
+<img src="https://user-images.githubusercontent.com/79830542/166857433-7548012c-534e-4c32-8d38-d0b5657dd815.png" width="600">
+
+HDD server có hai chuẩn giao tiếp phổ biến là:  SATA (Serial Advanced Technology Attachment) - chuẩn giao tiếp truyền dữ liệu theo dạng nối tiếp và SAS (Serial Attached SCSI) – chuẩn giao tiếp có tốc độ truyền tải dữ liệu nhanh nhất hiện nay).
+
+Trong việc lựa chọn ổ HDD cho server của mình thì ta nên để tâm đến tốc độ đọc/ghi của ổ đĩa (thường được thể hiện qua tốc độ quay của ổ đĩa - rpm càng lớn thì đọc/ghi càng nhanh) 
+
+💾 SSD (Solide Sate Drive): là một loại ổ cứng mảy chủ thể rắn. Dữ liệu được lưu trữ trong chip flash, nhờ vậy, dù dữ liệu bị phân mảnh (như trên HDD) thì cũng tốc độ truy xuất dữ liệu cũng không bị ảnh hưởng. Hầu như không có dộ trễ khi người dùng cần truy xuât dữ liệu trong máy.
+
+<img src="https://user-images.githubusercontent.com/79830542/166857642-dbacb905-ebf0-4284-90e0-b29fd8ec72e5.png" width="600">
+
+Ổ cứng SSD server có 3 loại phổ biến hiện nay: SATA, SAS và PCIe (PCI – Express). Xem chi tiết [tại đây](https://tuanphong.vn/news/cong-nghe-chip-nho-tren-o-cung-ssd-slc-mlc-tlc-qlc-va-plc-la-gi-id198)
+
+So sánh hai loại ổ cứng HDD và SSD
+
+So với ổ cứng HDD truyền thống, ổ cứng SSD server được nghiên cứu và cải thiện rất nhiều nên có khá nhiều tính năng vượt trội hơn HDD:
+
+    - Tốc độ khởi động hệ điều hành
+
+    - Tốc độ ghi chép/ truy xuất dữ liệu
+
+    - Tốc độ hoạt động của các phần mềm
+
+    - Khả năng bảo vệ dữ liệu
+
+    - Khắc phục được tình trạng máy chủ kêu to, hổ trợ tản nhiệt server tốt và hiệu quả hơn
+Tuy nhiên, để đạt được hiệu quả cao trong quá trình vận hành cũng như tối ưu về chi phí thì nên sử dụng kết hợp cả 2 loại ổ cứng.
+
+💾 Những thông số quan trọng trên ổ cứng
+- Cổng giao tiếp: Có tổng cộng 4 cổng giao tiếp sau: SATA2, SATA3, PCI-Express, USB 3.0. Thông thường ổ cứng có cổng giao tiếp SATA 2 được ưa chuộng nhất vì có thể hỗ trợ nhiều thiết bị nếu bạn muốn phát huy hết hiệu năng của SSD thì nên chọn cổng SATA 3
+
+- Tốc độ đọc/ghi tuần tự tối đa (Max Sequential Read/Writes) hiển thị dưới dạng MB/s ví dụ như 550MB/s hoặc 520 MB/s 
+
+- Tốc độ đọc/ghi ngẫu nhiên (Random Read/Write) là thông số người dùng cần quan tâm khi chọn mua ổ cứng. Tốc độ đọc các file nhỏ của ổ cứng càng cao khi các thông số IPOS lớn hơn.
+
+- Chuẩn bộ nhớ lưu trữ: Các chuẩn công nghệ ổ cứng hiện tại bao gồm QLC, MLC, TLC. Trong đó MLC – Multi level cell là dạng ổ cứng SSD cho laptop cá nhân nên dùng còn các doanh nghiệp nên chọn SLC – Single level cell.
+
+- Khả năng tiết kiệm điện: Ví dụ như các ổ cứng SSD (SATA2, SATA3) có mức tiêu thụ điện năng trung bình khoảng 3W. Dựa vào đây người mua có thể so sánh khả năng tiết kiệm điện của các loại ổ cứng.
+
+- Tính năng đi kèm: Tất cả các ổ cứng SSD hiện nay đều hỗ trợ lệnh TRIM, giúp hệ điều hành chủ động xem xét và xóa bỏ những dữ liệu không còn được dùng. Việc này giúp cho ổ cứng hoạt động mượt mà hơn, tăng tuổi thọ của ổ cứng.
 <a name="tailieu"></a>
 # Tài liệu tham khảo 🔖
 [1. CPU máy tính](https://stream-hub.com/cpu-may-tinh/)
@@ -100,4 +156,6 @@ do đó gửi thông tin sẽ được xử lý tới từng chip trên thanh RA
 [3. Core và Thread](https://fptshop.com.vn/tin-tuc/danh-gia/core-va-thread-la-gi-139997)
 
 [4. Các loại RAM ECC](https://quantrimang.com/tim-hieu-ve-cac-loai-ram-server-159508#mcetoc_1epi25tik2)
+
+[5. RAM ECC là gì](https://lagihitech.vn/ram-ecc-la-gi-co-cac-loai-nao/#:~:text=%2DRAM%20ECC%3A%20l%C3%A0%20thanh%20RAM,c%C3%B2n%20cao%20h%C6%A1n%20nhi%E1%BB%81u%20l%E1%BA%A7n.)
 
