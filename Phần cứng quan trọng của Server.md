@@ -20,7 +20,7 @@ tính toán các dữ liệu, nhận biết các thao tác của người dùng 
 Về cơ bản CPU được cấu tạo từ hàng triệu linh kiện bán dẫn siêu nhỏ (các transistor), được chia thành 2 phần:
  - Control Unit: có chức năng chính là “biên dịch” thao tác người dùng sang ngôn ngữ máy (machine language) từ đó giúp con người ra lệnh cho máy tính thông qua các thao tác.
  - Arithmethic Logic Unit: giải quyết những bài toán với những con số hoặc nhưng bài toán logic. Kết quả sau đó sẽ được sử dụng để xử lý thông tin.
- - 
+ - Thanh ghi (Register): đây là bộ phận có nhiệm vụ thực hiện thao tác ghi mã lệnh trước khi tiến hành việc xử lý và ghi kết quả sau khi được xử lý.
 **b) Các thông số chung**
  - Core (Nhân): các nhân của CPU sẽ đảm nhiệm những quá trình xử lý khác nhau, thông thường những CPU có càng nhiều nhân càng tốt vì điều đó sẽ giúp CPU xử lý các chương trình đa tác vụ.
  - Threads (luồng) cho ta biết có bao nhiêu đường đưa dữ liệu cho CPU xử lý. Nếu càng có nhiều Threads, dữ liệu được lưu thông dễ dàng và hiển nhiên kết quả là CPU sẽ xử lý nhanh hơn.
@@ -28,7 +28,6 @@ Về cơ bản CPU được cấu tạo từ hàng triệu linh kiện bán dẫ
  - FSB (Front Side Bus): là tốc độ truyền tải dữ liệu ra vào CPU hay là tốc độ dữ liệu chạy qua chân CPU. Đây là tốc độ giao tiếp của CPU với mainboard.
  - Bộ nhớ Cache: bộ nhớ đệm của CPU dùng để lưu trữ các lệnh chuẩn bị được xử lý của CPU. 
 Bộ nhớ đệm càng lưu trữ được nhiều thì hiệu suất của CPU càng cao.
- - Thanh ghi (Register): đây là bộ phận có nhiệm vụ thực hiện thao tác ghi mã lệnh trước khi tiến hành việc xử lý và ghi kết quả sau khi được xử lý.
  - Đối với server chạy 24h/ngày, 7 ngày/tuần thì điện năng tiêu thụ cũng khá là quan trọng, cần phải lưu tâm đến. Thường nó sẽ được hiển thị ngay trên web-site mua hàng. Mỗi loại có lượng tiêu thụ khác nhau, thường được tính bằng Watt (W).
  - Một số chữ cái hậu tố đi kèm như ví dụ sau:
 
@@ -48,11 +47,9 @@ Dòng CPU máy chủ Intel Xeon và những mã cập nhật gần đây, [xem c
 
 <a name="21.RAM ECC"></a>
 **RAM ECC (Error Checking and Correction) - RAM cho máy chủ**
-Một thanh RAM ECC là một thanh RAM có khả năng điều khiển được dòng dữ liệu ra và vào. Trong quá trình xử lý dữ liệu CPU sẽ không xử lý trên ROM mà xử lý tất cả trên RAM. Do do, 
-đối với một thanh RAM thông thường (non-ecc RAM) thì trong quá trình truyền tín hiệu ở tốc độ cao thì rất dễ dẫn đến hiện tượng xung đột (crash).
+Một thanh RAM ECC là một thanh RAM có khả năng điều khiển được dòng dữ liệu ra và vào. Trong quá trình xử lý dữ liệu CPU sẽ không xử lý trên ROM mà xử lý tất cả trên RAM. Do đó, đối với một thanh RAM thông thường (non-ecc RAM) thì trong quá trình truyền tín hiệu ở tốc độ cao thì rất dễ dẫn đến hiện tượng xung đột (crash).
 
-Khi xung đột xảy ra thì thanh RAM thường phải nạp lại toàn bộ dòng dữ liệu vì chúng không có khả năng quản lý được dòng dữ liệu. Đối với RAM ECC thì khi xung đột xảy ra, 
-chúng chỉ cần yêu cầu hệ thống gửi lại đúng gói dữ liệu (packet) bị xung đột. Do đó, Ram ECC có độ ổn định và hiệu năng rất cao. 
+Khi xung đột xảy ra thì thanh RAM thường phải nạp lại toàn bộ dòng dữ liệu vì chúng không có khả năng quản lý được dòng dữ liệu. Đối với RAM ECC thì khi xung đột xảy ra, chúng chỉ cần yêu cầu hệ thống gửi lại đúng gói dữ liệu (packet) bị xung đột. Do đó, Ram ECC có độ ổn định và hiệu năng rất cao. 
 Tất cả các RAM dành cho máy chủ đều đòi hỏi ích nhất phải có ECC.
 
 Tuy nhiên cũng sẽ có một số nhược điểm của việc sử dụng RAM ECC, mặc dù không quá nghiêm trọng cũng phải được xem xét kỹ. 
@@ -60,20 +57,19 @@ Tuy nhiên cũng sẽ có một số nhược điểm của việc sử dụng R
 Một nhược điểm khác mà bạn sẽ phải đối mặt khi sử dụng RAM ECC là chi phí sử dụng sẽ cao hơn. 
 
 <a name="21a.CacloaiRAM"></a>
-### 2.1 Các loại RAM ECC (Error Checking and Correction) chính 🌠
+### 2.1 Các loại RAM ECC (Error Checking and Correction) phổ biến 🌠
 Có 2 loại RAM chính là: Buffered và unbuffered
 
 <a name="RAMbuff"></a>
 #### a. RAM buffered 🌟
-RAM buffered là loại RAM có 1 [bộ đệm](https://quantrimang.com/ky-thuat-khai-thac-loi-tran-bo-dem-to-chuc-bo-nho-stack-goi-ham-shellcode-1782) là chip xử lý nhận thông tin trực tiếp từ CPU. Chip đệm này sau đó gửi thông tin được xử lý bởi các chip khác trên thẻ nhớ. 
-Điều này cho phép CPU gửi thông tin đến một mục tiêu thay vì gửi thông tin đến các chip riêng lẻ trên RAM. VD: Một thanh RAM 10600 điển hình sẽ có khoảng 18 chip đệm, do đó, bằng cách được trang bị một bộ đệm, 
-CPU sẽ tối ưu hóa được hệ thống đường dẫn để gửi thông tin đến.
+RAM buffered là loại RAM có 1 [bộ đệm](https://quantrimang.com/ky-thuat-khai-thac-loi-tran-bo-dem-to-chuc-bo-nho-stack-goi-ham-shellcode-1782) là chip xử lý nhận thông tin trực tiếp từ CPU. Chip đệm này sau đó gửi thông tin sẽ được xử lý bởi các chip khác trên RAM. 
+Điều này cho phép CPU gửi thông tin đến một mục tiêu thay vì gửi thông tin đến các chip riêng lẻ trên RAM. VD: Một thanh RAM 10600 điển hình sẽ có khoảng 18 chip đệm, do đó, bằng cách được trang bị một bộ đệm, CPU sẽ tối ưu hóa được hệ thống đường dẫn để gửi thông tin đến.
 
 <img src="https://user-images.githubusercontent.com/79830542/166854428-a1639ac4-bfec-4dae-864e-5ac2e2d11ef4.png" width=800>
 
 Một số loại RAM buffered tiêu biểu
 
-| Nội dung | Định nghĩa | Cách hoạt động |
+| Loại RAM | Định nghĩa | Cách hoạt động |
 |:---:|:---:|:---:|
 | RAM Registered (đây là dòng tiêu biểu và phổ biến nhất hiện nay) | hay còn gọi là ECC RDIMM là bộ nhớ có chứa các thanh ghi | các lệnh truy xuất được gửi đến thanh ghi trước rồi mới chuyển tới mô-đun bộ nhớ, chờ xử lý. |
 | RAM Fully Buffered | Hay còn được gọi là FB-DIMM là một công nghệ sản xuất ram với mục tiêu đặt ra là để phục vụ phát triển cho server bằng cách gia tăng tốc độ tối đa dựa trên công nghệ ram server (DIMM-ECC) cũ và tăng tối đa sự ổn định, độ tương thích | Loại RAM này về bản chất là một phiên bản cũ hơn của RAM Registered. Mặt hạn chế của FB-DIMM là chạy nóng hơn so với thanh ram DDR2 thông thường. |
@@ -83,7 +79,7 @@ Một số loại RAM buffered tiêu biểu
 
 <a name="RAMunBuff"></a>
 #### b. RAM unbuffered hay còn gọi là ECC UDIMM 🌟
-RAM ECC UDIMM là bộ nhớ không có các bộ đệm hoặc thanh ghi được thiết kế trên mô-đun bộ nhớ mà thay vào đó, 
+RAM ECC UDIMM là bộ nhớ không có các bộ đệm hoặc thanh ghi được thiết kế trên mô-đun RAM mà thay vào đó, 
 các thiết bị này được thiết kế trên bo mạch chủ. Ram ECC UDIMM có các lệnh truy xuất bộ nhớ 
 được đưa trực tiếp đến mô-đun bộ nhớ nhanh hơn ECC RDIMM vì không phải gửi gián tiếp qua thanh ghi.
 
