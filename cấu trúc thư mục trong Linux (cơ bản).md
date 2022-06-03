@@ -10,7 +10,7 @@
 Bạn có thể lựa chọn tải về phiên bản đầy đủ (bản DVD với hơn 4GB) hoặc bản thu gọn (minimal với khoảng 1GB).
 
  - Với bản DVD đầy đủ: sẽ có các lựa chọn GUI thì bạn có thể chọn KDE hoặc GNOME...Ngoài ra bạn có thể cài các service như DNS, FTP, SAMBA, Basic Web Server... 
-Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...Hiểu đơn giản thì bản DVD như này có đầy đủ các gói (như một [repo](https://quantrimang.com/cach-cai-dat-phan-mem-va-ung-dung-cho-he-dieu-hanh-linux-92187#:~:text=%2D%20Tr%C3%AAn%20c%C3%A1c%20repository%20(g%E1%BB%8Di%20t%E1%BA%AFt,sau%20%C4%91%C3%B3%20c%C3%A0i%20l%C3%AAn%20m%C3%A1y.) offline (bản ổn định nhất)) để cài một phiên bản CentOS nào đó khi bạn không có kết nối với internet. 
+Các tiện ích đi kèm như Backup Client, Internet Application, Office Suite and Productivity,...Hiểu đơn giản thì bản DVD như này có đầy đủ các gói (như một [repo](https://quantrimang.com/cach-cai-dat-phan-mem-va-ung-dung-cho-he-dieu-hanh-linux-92187#:~:text=%2D%20Tr%C3%AAn%20c%C3%A1c%20repository%20(g%E1%BB%8Di%20t%E1%BA%AFt,sau%20%C4%91%C3%B3%20c%C3%A0i%20l%C3%AAn%20m%C3%A1y.)) offline (bản ổn định nhất) để cài một phiên bản CentOS nào đó khi bạn không có kết nối với internet. 
 Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống bị lỗi.
  - Với bản Minimal thì chỉ có hệ điều hành CentOS, người dùng giao tiếp với với hệ điều hành bằng CLI (Command Line Interface). Bất kỳ gói cài thêm nào sẽ cần kết nối đến 1 mirror (thường là gần nhất).
 # II. Cấu trúc thư mục trong Linux ( Cơ bản)
@@ -40,6 +40,8 @@ Cũng có thể dùng nó như 1 bản cài đặt dự phòng khi hệ thống 
  - /media: Thư mục tạm này chứa các muont tạm thời thiết bị như Cd-Rom: /media/cdrom. floppy: /media/floopy (các thiết bị gắn ngoài có thể gỡ bỏ) hay các bộ phận đọc ghi ổ đĩa cứng (đĩa CD, DVD,...) /media/cdrecord (hiểu như là ổ D:/Data trong Windows)
  - /srv: Chứa dữ liệu liên quan đến các dịch vụ máy chủ như /srv/cvs, chứa các dữ liệu liên quan đến CVS.
  - /run: Thư mục mới được phát triển, được khởi tạo khi hệ thống được khởi động ghi ID của một số tiến trình đặc biệt. Đây được đánh dấu như một tệp tạm thời, lưu lại: các dữ liệu được dùng trong thời gian chạy, các tiến trình đang chạy hiện tại.
+
+<img src="https://user-images.githubusercontent.com/79830542/171784823-bcaf52ff-87d6-4ac2-9ae0-4173e090bb37.png" width="600"> 
 
 ## 2. Thư mục "/root"
 
