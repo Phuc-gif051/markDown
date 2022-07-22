@@ -69,7 +69,7 @@ _Lưu ý_: Nên sử dụng ổ cứng cùng 1 công ty, cùng 1 seri khi có ý
 
   - Kiểm tra lại `storage get pdisks -o -p state` 
 
-<img src="https://user-images.githubusercontent.com/79830542/165017322-9a7e26a0-23f0-4da1-a30d-ea4920935cc7.png" width="800">
+<img src="https://user-images.githubusercontent.com/79830542/180415502-2bf51bc6-7414-4011-90ac-cf3eab97b687.png" width="800">
 
 Thành công buộc ổ 0 offline sử dụng "racadm" trên window 10
 
