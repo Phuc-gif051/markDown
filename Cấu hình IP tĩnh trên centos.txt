@@ -1,3 +1,6 @@
+gecenof184@altpano.com
+Cas@2022
+
 File cấu hình network interface của mọi phiên bản RHEL được lưu trữ trong:
 
 /etc/sysconfig/network-scripts/
