@@ -1,0 +1,33 @@
+File cấu hình network interface của mọi phiên bản RHEL được lưu trữ trong:
+
+/etc/sysconfig/network-scripts/
+
+
+DEVICE=eth0		#Tên thiết bị 
+BOOTPROTO=none		#cách thức lấy IP, dựa vào DHCP hay cấu hình thủ công, mặc định là none
+
+ONBOOT=yes		#Khởi động cùng hệ thống
+
+IPADDR=172.16.5.1	#Địa chỉ IPv4 của máy
+GATEWAY=172.16.0.1	#Địa chỉ của gateway
+PREFIX=16		#Số subnet mask ở dạng thập phân
+
+DNS1=1.1.1.1		#Địa chỉ máy chủ phân giải tên miền
+IPV6INIT=no		#Có sử dụng IPv6 hay không
+DHCP=no			#Có sử dụng DHCP hay không
+
+TYPE=Ethernet		#Kiểu kết nối của thiết bị mạng
+PROXY_METHOD=none	#Kiểu phương thức proxy, thường là none hoặc để trống
+BROWSER_ONLY=no		#Cấu hình này chỉ dành cho trình duyệt hay là không
+DNS2=8.8.8.8		#Địa chỉ máy chủ phân giản tên miền 2
+DEFROUTE=yes		#Ưu tiên sử dụng cấu hình ip này đi đến router mặc định hay không
+IPV4_FAILURE_FATAL=no	#Khi cấu hình ip này bị lỗi thì có tắt luôn thiết bị mạng này hay không
+NAME="eth0"		#Tên của kết nối mà hiển thị với người dùng
+UUID=5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03 #ID của thiết bị 
+
+
+Tài liệu tham khảo:
+
+https://bom.so/Qsm7cA
+
+https://bom.so/2ULtu8
