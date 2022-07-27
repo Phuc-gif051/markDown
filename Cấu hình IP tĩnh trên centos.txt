@@ -28,6 +28,10 @@ IPV4_FAILURE_FATAL=no	#Khi cấu hình ip này bị lỗi thì có tắt luôn t
 NAME="eth0"		#Tên của kết nối mà hiển thị với người dùng
 UUID=5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03 #ID của thiết bị 
 
+Sau khi config xong, hãy restart lại mạng: `systemctl restart NetworkManager.service`
+
+Để xem lại thông tin mạng sau khi restart: `ip a` hoặc `nmcli` hoặc `nmcli device show`
+
 
 Tài liệu tham khảo:
 
