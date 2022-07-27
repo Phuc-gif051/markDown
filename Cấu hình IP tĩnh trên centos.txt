@@ -13,7 +13,7 @@ ONBOOT=yes		#Khởi động cùng hệ thống
 
 IPADDR=172.16.5.1	#Địa chỉ IPv4 của máy
 GATEWAY=172.16.0.1	#Địa chỉ của gateway
-PREFIX=16		#Số subnet mask ở dạng thập phân
+PREFIX=16		#Số bit của subnet mask ở dạng thập phân
 
 DNS1=1.1.1.1		#Địa chỉ máy chủ phân giải tên miền
 IPV6INIT=no		#Có sử dụng IPv6 hay không
