@@ -149,10 +149,6 @@ git merge <branch-name>
 
 Trong môi trường lab, bạn là người tạo ra branch main thì có thể chạy thử để kiểm tra.
 
-
-
-
-
 ## <a name="3" >Tài liệu tham khảo</a>
 
 <https://vn.got-it.ai/blog/huong-dan-cach-tao-branch-trong-git>
