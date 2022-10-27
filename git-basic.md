@@ -147,7 +147,7 @@ git remote rename <old-name> <new-name>
 git merge <branch-name>
 ```
 
-Trong môi trường lab, bạn là người tạo ra branch main thì có thể chạy thử để kiểm tra.
+Trong môi trường lab, bạn là người tạo ra branch main thì có thể chạy thử để kiểm tra. Tất nhiên là phải đứng tại branch main thì mới có thể merge các branch khác.
 
 ## <a name="3" >Tài liệu tham khảo</a>
 
