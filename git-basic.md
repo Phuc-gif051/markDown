@@ -103,8 +103,8 @@ git push -u <remote> <branch-name>
 >[Delete branch](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
 
 - Để xoá branch thì có 2 bước:
-  - B1: xoá trên github: git push -d <remote> <branch-name>
-  - B2: xoá tại máy local, nhớ phải đang đứng tại branch khác thì mới xoá được: git branch -d <branch-name>
+  - B1: xoá trên github: `git push -d <remote> <branch-name>`
+  - B2: xoá tại máy local, nhớ phải đang đứng tại branch khác thì mới xoá được: `git branch -d <branch-name>`
 
 >[rename branch](https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch?rq=1)
 
